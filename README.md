@@ -16,3 +16,7 @@ This repository contains modified map sources for Wolfenstein: Enemy Territory o
 ## Other planned maps
 * Snatch3 (terrain only)
 * Frostbite (terrain only)
+
+# License
+
+W:ET map sources are licensed under the original EULA (License.rtf, included in the repository). Everything else is licensed under the MIT license.
