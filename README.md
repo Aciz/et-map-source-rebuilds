@@ -5,6 +5,10 @@ Additionally, all maps have been converted from axial projection to brush primit
 
 **NOTE - WORK IN PROGRESS**
 
+## General notes
+* If you utilize these maps in your own creations, **please do not edit the shaders.** If you need to make modifications, please create your own shaders with unique names.
+* Due to some technical differences with PCX alphamap vs `q3map_alphaMod` blending, the terrains might be split into several `func_group` entities. This is because certain blends present in the maps are only possible if using PCX alphamap blending, which required the `q3map_alphaMod` variant to split the terrain into different groups, in order for the blending to work. Grouping alphamod brushes into a `func_group` makes them only modify the vertex alpha of the brushes that also belong to that `func_group`.
+
 ## Completed maps
 * Goldrush
 
