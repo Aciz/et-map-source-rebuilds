@@ -8,14 +8,15 @@ Additionally, all maps have been converted from axial projection to brush primit
 ## General notes
 * If you utilize these maps in your own creations, **please do not edit the shaders.** If you need to make modifications, please create your own shaders with unique names.
 * Due to some technical differences with PCX alphamap vs `q3map_alphaMod` blending, the terrains might be split into several `func_group` entities. This is because certain blends present in the maps are only possible if using PCX alphamap blending, which required the `q3map_alphaMod` variant to split the terrain into different groups, in order for the blending to work. Grouping alphamod brushes into a `func_group` makes them only modify the vertex alpha of the brushes that also belong to that `func_group`.
+* Some maps include tweaked versions of original shaders (different names, only used in these maps). These are mainly to work around the way modern compilers handle face splitting and T-Junc fixing - sometimes the terrain brushwork gets split up differently compared to the original map, resulting in terrain blending breaking unexpectedly.
 
 ## Completed maps
 * Goldrush
 * Railgun
+* Fueldump
 
 ## Upcoming maps
 * Battery
-* Fueldump
 * Oasis
 * Radar
 
