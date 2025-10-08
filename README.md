@@ -14,11 +14,11 @@ Additionally, all maps have been converted from axial projection to brush primit
 * Goldrush
 * Railgun
 * Fueldump
+* Radar
 
 ## Upcoming maps
 * Battery
 * Oasis
-* Radar
 
 ## Other planned maps
 * Snatch3 (terrain only)
