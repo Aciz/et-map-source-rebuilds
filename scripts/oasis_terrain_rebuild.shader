@@ -8,6 +8,8 @@
 // Changes from original shaders:
 // - removed 'q3map_lightmapsize 512 512' from 'terrain_base'
 //   to allow higher resolution lightmaps
+// - removed 'q3map_lightmapsamplesize 16' from 'terrain_base'
+//   to allow any samplesize value for terrain
 // - added some special shaders to work around modern face splitting
 //   algorithms - 'q3map_noTJunc' is used in some shaders to prevent
 //   terrain brush faces from getting split up
@@ -53,7 +55,6 @@ textures/oasis_terrain_rebuild/terrain_base
 {
 	q3map_tcGen ivector ( 256 0 0 ) ( 0 256 0 )
 	q3map_lightmapMergable
-	q3map_lightmapsamplesize 16
 	q3map_lightmapaxis z
 	q3map_shadeangle 179
 	
