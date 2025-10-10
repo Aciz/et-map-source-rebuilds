@@ -17,8 +17,6 @@ Additionally, all maps have been converted from axial projection to brush primit
 * Fueldump
 * Radar
 * Oasis
-
-## Upcoming maps
 * Battery
 
 ## Other planned maps
