@@ -123,6 +123,42 @@ textures/goldrush_terrain_rebuild/roughbrick01
 	}
 }
 
+// pillars at the bank entrance staircase,
+// 'q3map_noTJunc' added to fix terrain blending
+textures/goldrush_terrain_rebuild/stucco01
+{
+	qer_editorimage textures/egypt_walls_sd/stucco01.tga
+
+	q3map_noTJunc
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/egypt_walls_sd/stucco01.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+// side wall of the staircase at the bank entrance,
+// 'q3map_noTJunc' added to fix terrain blending
+textures/goldrush_terrain_rebuild/stucco01_decor01
+{
+	qer_editorimage textures/egypt_walls_sd/stucco01_decor01.tga
+
+	q3map_noTJunc
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/egypt_walls_sd/stucco01_decor01.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
 textures/goldrush_terrain_rebuild/terrain_base
 {
 	q3map_lightmapaxis z
