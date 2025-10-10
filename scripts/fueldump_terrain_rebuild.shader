@@ -388,6 +388,38 @@ textures/fueldump_terrain_rebuild/terrain1_0to3
 	}
 }
 
+// fix for terrain blend near tunnel grate entrance,
+// 'q3map_noTJunc' required to prevent the face from splitting
+// due to the vertices being slightly off the grid
+textures/fueldump_terrain_rebuild/terrain1_0to3_notjunc
+{
+	qer_editorimage textures/fueldump_terrain_rebuild/terrain1_0to3.tga
+	q3map_baseshader textures/fueldump_terrain_rebuild/terrain_base
+	q3map_noTJunc
+	{
+		map textures/stone/mxsnow2.tga
+		rgbgen identity
+	}
+	{
+		map textures/stone/mxrock3h_snow.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen identity
+		alphaGen vertex
+	}
+	{
+		lightmap $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbgen identity
+	}
+	{
+		map textures/detail_sd/snowdetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		rgbgen identity
+		tcMod scale 5 5
+		detail
+	}
+}
+
 textures/fueldump_terrain_rebuild/terrain1_1to2
 {
 	q3map_baseshader textures/fueldump_terrain_rebuild/terrain_base
