@@ -15,7 +15,8 @@ Additionally, all maps have been converted from axial projection to brush primit
 _* = with caveats, check map-specific notes below._
 
 ## Other planned maps
-* Snatch3 (terrain only)
+* Snatch3
+* Braundorf B4
 
 ## General notes
 * If you utilize these maps in your own creations, **please do not edit the shaders.** If you need to make modifications, please create your own shaders with unique names.
@@ -41,6 +42,7 @@ We can only guess, but likely either one of these happened during Battery's deve
 
 ### Frostbite
 * Built from decompile entirely, includes fixed terrain blends and re-added models.
+* Terrain shaders are setup to be lightmapped instead of vertex lit, like in the original.
 * This version includes fix for blacked windows on the truck models near the inner courtyard.
 * Light entities are not restored - the original Frostbite clearly uses light entities to accompany some light sources in the map, these are not recreated in this version.
 * Texture alignment issues might be present in this version - I've only corrected texture alignment from the side wall gate, the rest of the map is entirely as-is after a decompile. Since the decompile was done with `-format map_bp`, it's mostly fine, but there might be few misaligned textures here and there.
