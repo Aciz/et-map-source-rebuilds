@@ -7,7 +7,6 @@
 //
 // Changes from original shaders:
 // - removed original 'qer_editorimage' directives
-// - added base shader, which sets up lightmapping
 //
 // ============================================================
 
