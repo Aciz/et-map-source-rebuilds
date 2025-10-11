@@ -11,11 +11,11 @@ Additionally, all maps have been converted from axial projection to brush primit
 * Radar
 * Railgun
 * Frostbite*
+* Snatch 3*
 
 _* = with caveats, check map-specific notes below._
 
 ## Other planned maps
-* Snatch3
 * Braundorf B4
 
 ## General notes
@@ -46,6 +46,13 @@ We can only guess, but likely either one of these happened during Battery's deve
 * This version includes fix for blacked windows on the truck models near the inner courtyard.
 * Light entities are not restored - the original Frostbite clearly uses light entities to accompany some light sources in the map, these are not recreated in this version.
 * Texture alignment issues might be present in this version - I've only corrected texture alignment from the side wall gate, the rest of the map is entirely as-is after a decompile. Since the decompile was done with `-format map_bp`, it's mostly fine, but there might be few misaligned textures here and there.
+
+### Snatch 3
+* Built from decompile entirely, includes fixed terrain blends and re-added models.
+* Fixes for terrain blends near the various bunker entrances that "punch through" the terrain
+* Fixed obvious incorrect texture near the MG42 at the middle part of the map, near Axis team door.
+* Light entities are not restored.
+* Texture alignment issues might be present in this version - I've only corrected texture alignment from doors and the spinning radar antenna, the rest of the map is entirely as-is after a decompile. Since the decompile was done with `-format map_bp`, it's mostly fine, but there might be few misaligned textures here and there.
 
 # License
 
