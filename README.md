@@ -12,11 +12,11 @@ Additionally, all maps have been converted from axial projection to brush primit
 * Railgun
 * Frostbite*
 * Snatch 3*
+* Braundorf B4*
 
 _* = with caveats, check map-specific notes below._
 
 ## Other planned maps
-* Braundorf B4
 * Warbell
 
 ## General notes
@@ -54,6 +54,13 @@ We can only guess, but likely either one of these happened during Battery's deve
 * Fixed obvious incorrect texture near the MG42 at the middle part of the map, near Axis team door.
 * Light entities are not restored.
 * Texture alignment issues might be present in this version - I've only corrected texture alignment from doors and the spinning radar antenna, the rest of the map is entirely as-is after a decompile. Since the decompile was done with `-format map_bp`, it's mostly fine, but there might be few misaligned textures here and there.
+
+### Braundorf B4
+* Built from decompile entirely, includes fixed terrain blends (due to decompile breaking it, the map uses `q3map_alphaMod` for blends) and re-added models.
+* Editor images required for proper texture alignment on terrain are included.
+* No special shader, all required shaders are already in the original `braundorf.shader`.
+* Light entities are not restored, interior clearly used light entities, it's extremely dark.
+* Texture alignment issues might be present in this version - I've only corrected texture alignment from doors at main and side entrance, the rest of the map is entirely as-is after a decompile. Since the decompile was done with `-format map_bp`, it's mostly fine, but there might be few misaligned textures here and there.
 
 # License
 
