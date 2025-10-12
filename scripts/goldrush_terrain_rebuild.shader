@@ -397,3 +397,29 @@ textures/goldrush_terrain_rebuild/terrain_3
 		detail
 	}
 }
+
+// reversed 0to1
+textures/goldrush_terrain_rebuild/terrain_1to0
+{
+	q3map_baseshader textures/goldrush_terrain_rebuild/terrain_base
+	{
+		map textures/desert_sd/pavement_quad_sandy.tga
+		tcMod scale 1.75 1.75
+	}
+	{
+		map textures/temperate_sd/sand_bubbles_bright.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphaGen vertex
+		tcMod scale 1.75 1.75
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+	}
+	{
+		map textures/detail_sd/sanddetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		tcMod scale 3 3
+		detail
+	}
+}

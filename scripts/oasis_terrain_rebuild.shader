@@ -1117,3 +1117,289 @@ textures/oasis_terrain_rebuild/terrain_6to7
 		tcMod scale 6 6
 	}
 }
+
+// reversed 0to3
+textures/oasis_terrain_rebuild/terrain_3to0
+{
+	q3map_baseshader textures/oasis_terrain_rebuild/terrain_base
+	surfaceparm landmine
+	surfaceparm gravelsteps
+	 
+	 
+	
+	{
+		map textures/desert_sd/sand_disturb_desert.tga
+		rgbgen identity
+	}
+	{
+		map textures/desert_sd/sand_wave_desert.tga
+		rgbgen identity
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		 
+	}
+	{
+		map textures/detail_sd/sanddetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		detail
+		tcMod scale 6 6
+	}
+}
+
+// reversed 0to6
+textures/oasis_terrain_rebuild/terrain_6to0
+{
+	q3map_baseshader textures/oasis_terrain_rebuild/terrain_base
+	surfaceparm landmine
+	surfaceparm gravelsteps
+	 
+	 
+	
+	{
+		map textures/desert_sd/sand_gravels_bright.tga
+		rgbgen identity
+	}
+	{
+		map textures/desert_sd/sand_wave_desert.tga
+		rgbgen identity
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		 
+	}
+	{
+		map textures/detail_sd/sanddetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		detail
+		tcMod scale 6 6
+	}
+}
+
+// reversed 1to4
+textures/oasis_terrain_rebuild/terrain_4to1
+{
+	q3map_baseshader textures/oasis_terrain_rebuild/terrain_base
+	surfaceparm landmine
+	surfaceparm gravelsteps
+	 
+	 
+	
+	{
+		map textures/desert_sd/grass_desert_flat.tga
+		rgbgen identity
+	}
+	{
+		map textures/desert_sd/grass_sand_flat.tga
+		rgbgen identity
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		 
+	}
+	{
+		map textures/detail_sd/sanddetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		detail
+		tcMod scale 6 6
+	}
+}
+
+// reversed 2to3
+textures/oasis_terrain_rebuild/terrain_3to2
+{
+	q3map_baseshader textures/oasis_terrain_rebuild/terrain_base
+	surfaceparm landmine
+	surfaceparm gravelsteps
+	 
+	 
+	
+	{
+		map textures/desert_sd/sand_disturb_desert.tga
+		rgbgen identity
+	}
+	{
+		map textures/desert_sd/sand_patchy.tga
+		rgbgen identity
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		 
+	}
+	{
+		map textures/detail_sd/sanddetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		detail
+		tcMod scale 6 6
+	}
+}
+
+// reversed 2to7
+textures/oasis_terrain_rebuild/terrain_7to2
+{
+	q3map_baseshader textures/oasis_terrain_rebuild/terrain_base
+	surfaceparm landmine
+	surfaceparm gravelsteps
+	 
+	 
+	
+	{
+		map textures/desert_sd/sand_dirt_medium.tga
+		rgbgen identity
+	}
+	{
+		map textures/desert_sd/sand_patchy.tga
+		rgbgen identity
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		 
+	}
+	{
+		map textures/detail_sd/sanddetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		detail
+		tcMod scale 6 6
+	}
+}
+
+// reversed 3to6
+textures/oasis_terrain_rebuild/terrain_6to3
+{
+	q3map_baseshader textures/oasis_terrain_rebuild/terrain_base
+	surfaceparm landmine
+	surfaceparm gravelsteps
+	 
+	 
+	
+	{
+		map textures/desert_sd/sand_gravels_bright.tga
+		rgbgen identity
+	}
+	{
+		map textures/desert_sd/sand_disturb_desert.tga
+		rgbgen identity
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		 
+	}
+	{
+		map textures/detail_sd/sanddetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		detail
+		tcMod scale 6 6
+	}
+}
+
+// reversed 3to7
+textures/oasis_terrain_rebuild/terrain_7to3
+{
+	q3map_baseshader textures/oasis_terrain_rebuild/terrain_base
+	surfaceparm landmine
+	surfaceparm gravelsteps
+	 
+	 
+	
+	{
+		map textures/desert_sd/sand_dirt_medium.tga
+		rgbgen identity
+	}
+	{
+		map textures/desert_sd/sand_disturb_desert.tga
+		rgbgen identity
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		 
+	}
+	{
+		map textures/detail_sd/sanddetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		detail
+		tcMod scale 6 6
+	}
+}
+
+// reversed 5to6
+textures/oasis_terrain_rebuild/terrain_6to5
+{
+	q3map_baseshader textures/oasis_terrain_rebuild/terrain_base
+	surfaceparm landmine
+	surfaceparm gravelsteps
+	 
+	 
+	
+	{
+		map textures/desert_sd/sand_gravels_bright.tga
+		rgbgen identity
+	}
+	{
+		map textures/desert_sd/rock_edged_smooth.tga
+		rgbgen identity
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		 
+	}
+	{
+		map textures/detail_sd/sanddetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		detail
+		tcMod scale 6 6
+	}
+}
+
+// reversed 6to7
+textures/oasis_terrain_rebuild/terrain_7to6
+{
+	q3map_baseshader textures/oasis_terrain_rebuild/terrain_base
+	surfaceparm landmine
+	surfaceparm gravelsteps
+	
+	{
+		map textures/desert_sd/sand_dirt_medium.tga
+		rgbgen identity
+	}
+	{
+		map textures/desert_sd/sand_gravels_bright.tga
+		rgbgen identity
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		 
+	}
+	{
+		map textures/detail_sd/sanddetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		detail
+		tcMod scale 6 6
+	}
+}

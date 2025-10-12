@@ -749,3 +749,115 @@ textures/railgun_terrain_rebuild/terrain_6
 		detail
 	}
 }
+
+// reversed 1to3
+textures/railgun_terrain_rebuild/terrain_3to1
+{
+	q3map_baseshader textures/railgun_terrain_rebuild/terrain_base
+	{
+		map textures/snow_sd/snow_muddy.tga
+		rgbgen identity
+	}
+	{
+		map textures/snow_sd/bigrock_rounded_faint.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen identity
+		alphaGen vertex
+	}
+	{
+		lightmap $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbgen identity
+	}
+	{
+		map textures/detail_sd/snowdetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		rgbgen identity
+		tcMod scale 5 5
+		detail
+	}
+}
+
+// reversed 1to5
+textures/railgun_terrain_rebuild/terrain_5to1
+{
+	q3map_baseshader textures/railgun_terrain_rebuild/terrain_base
+	{
+		map textures/snow_sd/snow_noisy.tga
+		rgbgen identity
+	}
+	{
+		map textures/snow_sd/bigrock_rounded_faint.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen identity
+		alphaGen vertex
+	}
+	{
+		lightmap $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbgen identity
+	}
+	{
+		map textures/detail_sd/snowdetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		rgbgen identity
+		tcMod scale 5 5
+		detail
+	}
+}
+
+// reversed 2to5
+textures/railgun_terrain_rebuild/terrain_5to2
+{
+	q3map_baseshader textures/railgun_terrain_rebuild/terrain_base
+	{
+		map textures/snow_sd/snow_noisy.tga
+		rgbgen identity
+	}
+	{
+		map textures/snow_sd/snow_var01_big.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen identity
+		alphaGen vertex
+	}
+	{
+		lightmap $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbgen identity
+	}
+	{
+		map textures/detail_sd/snowdetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		rgbgen identity
+		tcMod scale 5 5
+		detail
+	}
+}
+
+// reversed 3to4
+textures/railgun_terrain_rebuild/terrain_4to3
+{
+	q3map_baseshader textures/railgun_terrain_rebuild/terrain_base
+	{
+		map textures/snow_sd/mxrock4b_snow.tga
+		rgbgen identity
+	}
+	{
+		map textures/snow_sd/snow_muddy.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen identity
+		alphaGen vertex
+	}
+	{
+		lightmap $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbgen identity
+	}
+	{
+		map textures/detail_sd/snowdetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		rgbgen identity
+		tcMod scale 5 5
+		detail
+	}
+}

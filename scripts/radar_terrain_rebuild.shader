@@ -391,3 +391,25 @@ textures/radar_terrain_rebuild/terrain2_3to4
 		rgbgen identity
 	}
 }
+
+// reversed 1to2
+textures/radar_terrain_rebuild/terrain2_2to1
+{
+	q3map_baseshader textures/radar_terrain_rebuild/terrain2_foliage_base
+	
+	{
+		map textures/temperate_sd/grass_dense1.tga
+		rgbgen identity
+	}
+	{
+		map textures/temperate_sd/grass_path1.tga
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen identity
+	}
+	{
+		lightmap $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbgen identity
+	}
+}

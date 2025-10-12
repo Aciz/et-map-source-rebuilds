@@ -25,6 +25,21 @@ textures/frostbite_source_rebuild/alpha_000
 	surfaceparm trans
 }
 
+// fix for terrain blending near side gate,
+// due to chopped up terrain geometry
+textures/frostbite_source_rebuild/alpha_050
+{
+	qer_trans 0.5
+	qer_noCarve
+
+	q3map_alphaMod volume
+	q3map_alphaMod set 0.5
+
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
+}
+
 textures/frostbite_source_rebuild/terrain_base
 {
 	q3map_nonPlanar
