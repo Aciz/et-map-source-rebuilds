@@ -13,11 +13,12 @@ Additionally, all maps have been converted from axial projection to brush primit
 * Frostbite*
 * Snatch 3*
 * Braundorf B4*
+* Warbell*
 
 _* = with caveats, check map-specific notes below._
 
 ## Other planned maps
-* Warbell
+* TC Base
 
 ## General notes
 * If you utilize these maps in your own creations, **please do not edit the shaders.** If you need to make modifications, please create your own shaders with unique names.
@@ -58,10 +59,21 @@ We can only guess, but likely either one of these happened during Battery's deve
 
 ### Braundorf B4
 * Built from decompile entirely, includes fixed terrain blends (due to decompile breaking it, the map uses `q3map_alphaMod` for blends) and re-added models.
-* Editor images required for proper texture alignment on terrain are included.
+* Editor images added for shaders that lack one.
 * No special shader, all required shaders are already in the original `braundorf.shader`.
 * Light entities are not restored, interior clearly used light entities, it's extremely dark.
 * Corrected texture alignment from doors at main gate and bunker side entrance (broken due to decompile).
+
+### Warbell
+* Built from decompile entirely, includes fixed terrain blends (due to decompile breaking it, the map uses `q3map_alphaMod` for blends) and re-added models.
+* Editor images added for shaders that lack one.
+* Tons of terrain shaders were modified to remove `q3map_tcMod scale` key from them. This is because the decompilation process already works with the scaled version of the shaders (`q3map_tcMod` is a compile-time directive), so the terrain already had the original scaling baked-in.
+* Added `_remap` key for windows of the truck models directly to the models for compile-time remapping (original map does this via mapscript).
+* Texture alignment on the rock models deviates slightly from the original, due to `q3map_tcMod scale` resulting in slightly different projection in BP format compared to AP.
+* Added lowercased versions of several textures in the map for Radiant compatibility on Linux - game does not care about case sensitivity so these don't need to be included for any variations made from this source, this is purely for editor purposes.
+* Changed `textures/wb_alphamod/...` shaders to point to `textures/warbell_source_rebuild/...`, the original map does not ship with these shaders and textures anyway as they are compile time only, so for convenience I bundled them here with the shader file for the map.
+* Light entities are not restored.
+* Corrected texture alignment from all doors (broken due to decompile).
 
 # License
 
