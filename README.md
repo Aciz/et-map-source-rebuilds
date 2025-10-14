@@ -19,6 +19,8 @@ _* = with caveats, check map-specific notes below._
 
 ## Other planned maps
 * TC Base
+* Caen 2
+* Venice
 
 ## General notes
 * If you utilize these maps in your own creations, **please do not edit the shaders.** If you need to make modifications, please create your own shaders with unique names.
