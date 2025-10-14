@@ -24,6 +24,7 @@ _* = with caveats, check map-specific notes below._
 * The blends are made to work when the entire map is made of detail brushes. Due to modern compilers more aggressively deleting vertices from brushes and re-splitting the brush faces, some of the original terrain geometry gets chopped to different shapes of brushes due to some of the brush vertices being inside structural brushes, which causes the terrain blending to break. This is fine for the main use case of these rebuilds (original trickjump maps) since everythng inside the room that a jump is in should be detail anyway, but if you are for example making a slightly edited version of one of these maps for regular gameplay, you might need to tweak the structural construction of the map to prevent this.
 * Some terrains use special "reverse blend" shaders in some places. This is because certain blends present in the maps are only possible if using PCX alphamap blending, which requires the blending direction to be reversed for a `q3map_alphaMod` blend to work. This is because PCX alphamap blending does not care about the blend direction unlike `q3map_alphaMod` blending, it only cares if you have a shader available that is able to blend A -> B.
 * Some maps include tweaked versions of original shaders (different names, only used in these maps). These are mainly to work around the way modern compilers handle face splitting and T-Junc fixing - sometimes the terrain brushwork gets split up differently compared to the original map, resulting in terrain blending breaking unexpectedly.
+* Maps created from decompiles were decompiled with texture alignment resolving enabled. They should be mostly fine in terms of texture alignment, but a thorough check has not been performed, only obvious issues that decompile has trouble resolving (some doors & other movers).
 
 ## Map-specific notes
 ### Battery
@@ -46,21 +47,21 @@ We can only guess, but likely either one of these happened during Battery's deve
 * Terrain shaders are setup to be lightmapped instead of vertex lit, like in the original.
 * This version includes fix for blacked windows on the truck models near the inner courtyard.
 * Light entities are not restored - the original Frostbite clearly uses light entities to accompany some light sources in the map, these are not recreated in this version.
-* Texture alignment issues might be present in this version - I've only corrected texture alignment from the side wall gate, the rest of the map is entirely as-is after a decompile. Since the decompile was done with `-format map_bp`, it's mostly fine, but there might be few misaligned textures here and there.
+* Corrected texture alignment from the side wall gate and door (broken due to decompile).
 
 ### Snatch 3
 * Built from decompile entirely, includes fixed terrain blends and re-added models.
 * Fixes for terrain blends near the various bunker entrances that "punch through" the terrain
 * Fixed obvious incorrect texture near the MG42 at the middle part of the map, near Axis team door.
 * Light entities are not restored.
-* Texture alignment issues might be present in this version - I've only corrected texture alignment from doors and the spinning radar antenna, the rest of the map is entirely as-is after a decompile. Since the decompile was done with `-format map_bp`, it's mostly fine, but there might be few misaligned textures here and there.
+* Corrected texture alignment from all doors and the spinning radar antenna (broken due to decompile).
 
 ### Braundorf B4
 * Built from decompile entirely, includes fixed terrain blends (due to decompile breaking it, the map uses `q3map_alphaMod` for blends) and re-added models.
 * Editor images required for proper texture alignment on terrain are included.
 * No special shader, all required shaders are already in the original `braundorf.shader`.
 * Light entities are not restored, interior clearly used light entities, it's extremely dark.
-* Texture alignment issues might be present in this version - I've only corrected texture alignment from doors at main and side entrance, the rest of the map is entirely as-is after a decompile. Since the decompile was done with `-format map_bp`, it's mostly fine, but there might be few misaligned textures here and there.
+* Corrected texture alignment from doors at main gate and bunker side entrance (broken due to decompile).
 
 # License
 
