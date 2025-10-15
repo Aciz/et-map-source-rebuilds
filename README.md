@@ -14,11 +14,11 @@ Additionally, all maps have been converted from axial projection to brush primit
 * Snatch 3*
 * Braundorf B4*
 * Warbell*
+* TC Base*
 
 _* = with caveats, check map-specific notes below._
 
 ## Other planned maps
-* TC Base
 * Caen 2
 * Venice
 * Karsiah TE2
@@ -77,6 +77,13 @@ We can only guess, but likely either one of these happened during Battery's deve
 * Changed `textures/wb_alphamod/...` shaders to point to `textures/warbell_source_rebuild/...`, the original map does not ship with these shaders and textures anyway as they are compile time only, so for convenience I bundled them here with the shader file for the map.
 * Light entities are not restored.
 * Corrected texture alignment from all doors (broken due to decompile).
+
+### TC Base
+* Build from decompile entirely, included re-added models.
+* Truck model windows have been fixed to display texture properly.
+* Fixed flickering textures due to brush overlap at South Radar bottom entrance.
+* Light entities are not restored.
+* Corrected texture alignment from spinning radars (broken due to decompile).
 
 # License
 
