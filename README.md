@@ -19,11 +19,11 @@ Additionally, all maps have been converted from axial projection to brush primit
 * Braundorf B4*
 * Warbell*
 * TC Base*
+* Caen 2*
 
 _* = with caveats, check map-specific notes below._
 
 ## Other planned maps
-* Caen 2
 * Venice
 * Karsiah TE2
 * ET UFO
@@ -89,6 +89,13 @@ We can only guess, but likely either one of these happened during Battery's deve
 * Fixed flickering textures due to brush overlap at South Radar bottom entrance.
 * Light entities are not restored.
 * Corrected texture alignment from spinning radars (broken due to decompile).
+
+### Caen 2
+* Built from decompile entirely, includes fixed terrain blends and re-added models.
+* Changed all `misc_gamemodel` entities using `models/mapobjects/light/sconce3.md3` to `models/mapobjects/light/sconce3.mdc` - `.mdc` variant is the one that the game actually ships with, and model loading code has fallbacks from `md3` to `mdc` and vice-versa, when loading models. This doesn't change which model gets loaded, but it fixes the model not being loaded by Radiant.
+* Re-textures some faces of the river brushes with `common/nodrawwater` instead of the river shader (these were never really visible in regular gameplay anyway).
+* Light entities are not restored.
+* Corrected texture alignment from all doors (broken due to decompile).
 
 # License
 
