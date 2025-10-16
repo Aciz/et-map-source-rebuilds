@@ -99,4 +99,4 @@ We can only guess, but likely either one of these happened during Battery's deve
 
 # License
 
-W:ET map sources are licensed under the original EULA ([License.rtf](https://github.com/Aciz/et-map-source-rebuilds/blob/master/License.rtf), included in the repository). Everything else is licensed under the MIT license.
+W:ET map sources are licensed under the original EULA ([License.rtf](https://github.com/Aciz/et-map-source-rebuilds/blob/master/License.rtf), included in the repository). Everything else is licensed under the Creative Commons Zero license (aka CC0). Should any of the original authors of the maps I am hosting here have a problem with the work I have put up here, please reach out to me.
