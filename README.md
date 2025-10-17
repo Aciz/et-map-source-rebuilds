@@ -20,11 +20,11 @@ Additionally, all maps have been converted from axial projection to brush primit
 * Warbell*
 * TC Base*
 * Caen 2*
+* Venice*
 
 _* = with caveats, check map-specific notes below._
 
 ## Other planned maps
-* Venice
 * Karsiah TE2
 * ET UFO
 
@@ -96,6 +96,14 @@ We can only guess, but likely either one of these happened during Battery's deve
 * Re-textures some faces of the river brushes with `common/nodrawwater` instead of the river shader (these were never really visible in regular gameplay anyway).
 * Light entities are not restored.
 * Corrected texture alignment from all doors (broken due to decompile).
+
+### Venice
+* Built from decompile entirely, includes recreated and re-added models.
+* Fixed bunch of incorrect models used in the lamps around the map (gamemodels used as `misc_model`, resulting in black surfaces) as well as on the truck, near the boat end position.
+* Fixed flipped door texture at Allies 1st spawn cafe building exit (was opening from the handle side).
+* Recreated a lot of ase models used in the map as prefabs by extracting the surfaces from the BSP file. The scripts used to extract these, as well as blender scenes used to export them, are included in the `extras` directory.
+* Light entities are not restored.
+* Corrected texture alignment from all doors and other movers (broken due to decompile).
 
 # License
 
