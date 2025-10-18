@@ -8,9 +8,8 @@
 // Changes from original shaders:
 // - removed 'q3map_lightmapsize 512 512' from 'terrain_base'
 //   to allow higher resolution lightmaps
-// - added some special shaders to work around modern face splitting
-//   algorithms - 'q3map_noTJunc' is used in some shaders to prevent
-//   terrain brush faces from getting split up
+// - added 'q3map_terrain' to 'terrain_base' to inherit the
+//   properties of the terrain meta shader used in the original map
 //
 // ============================================================
 
@@ -27,140 +26,10 @@ textures/goldrush_terrain_rebuild/alpha_000
 	surfaceparm trans
 }
 
-// used to fix terrain blending at the back corner of the bank back alley
-textures/goldrush_terrain_rebuild/alpha_025
-{
-	qer_trans 0.5
-	qer_noCarve
-
-	q3map_alphaMod volume
-	q3map_alphaMod set 0.0
-
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm trans
-}
-
-// steps near truck exit, 'q3map_noTJunc' added to fix terrain blending
-textures/goldrush_terrain_rebuild/mat_wall1
-{
-	qer_editorimage textures/egypt_walls_sd/mat_wall1.tga
-
-	q3map_noTJunc
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	{
-		map textures/egypt_walls_sd/mat_wall1.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-// corner near Axis 2nd spawn back exit leading to bank back alley
-// and fake door at the last tank path bend,
-// 'q3map_noTJunc' added to fix terrain blending
-textures/goldrush_terrain_rebuild/trim_c03b
-{
-	qer_editorimage textures/egypt_trim_sd/trim_c03b.tga
-
-	q3map_noTJunc
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	{
-		map textures/egypt_trim_sd/trim_c03b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-// corner near Axis 2nd spawn main exit,
-// 'q3map_noTJunc' added to fix terrain blending
-textures/goldrush_terrain_rebuild/tobruk_wall_base9
-{
-	qer_editorimage textures/tobruk_wall_sd/tobruk_wall_base9.tga
-
-	q3map_noTJunc
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	{
-		map textures/tobruk_wall_sd/tobruk_wall_base9.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-// wooden plank near the stairs leading to MG42 nest near tank barrier #2,
-// 'q3map_noTJunc' added to fix terrain blending
-textures/goldrush_terrain_rebuild/wood_c13
-{
-	qer_editorimage textures/egypt_floor_sd/wood_c13.tga
-	q3map_noTJunc
-	surfaceparm woodsteps
-	implicitMap textures/egypt_floor_sd/wood_c13.tga
-}
-
-// trim at the start of the steps leading to MG42 nest near tank barrier #2,
-// 'q3map_noTJunc' added to fix terrain blending
-textures/goldrush_terrain_rebuild/roughbrick01
-{
-	qer_editorimage textures/egypt_walls_sd/roughbrick01.tga
-
-	q3map_noTJunc
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	{
-		map textures/egypt_walls_sd/roughbrick01.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-// pillars at the bank entrance staircase,
-// 'q3map_noTJunc' added to fix terrain blending
-textures/goldrush_terrain_rebuild/stucco01
-{
-	qer_editorimage textures/egypt_walls_sd/stucco01.tga
-
-	q3map_noTJunc
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	{
-		map textures/egypt_walls_sd/stucco01.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-// side wall of the staircase at the bank entrance,
-// 'q3map_noTJunc' added to fix terrain blending
-textures/goldrush_terrain_rebuild/stucco01_decor01
-{
-	qer_editorimage textures/egypt_walls_sd/stucco01_decor01.tga
-
-	q3map_noTJunc
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	{
-		map textures/egypt_walls_sd/stucco01_decor01.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 textures/goldrush_terrain_rebuild/terrain_base
 {
+	q3map_terrain
+
 	q3map_lightmapaxis z
 	q3map_lightmapmergable
 	q3map_tcGen ivector ( 299 0 0 ) ( 0 299 0 )
