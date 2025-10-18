@@ -10,9 +10,8 @@
 //   to allow higher resolution lightmaps
 // - removed 'terrain2_5' and any '*to5' shaders as they
 //   are not used in the map, and the texture doesn't exist
-// - added some special shaders to work around modern face splitting
-//   algorithms - 'q3map_noTJunc' is used in some shaders to prevent
-//   terrain brush faces from getting split up
+// - added 'q3map_terrain' to 'terrain_base' to inherit the
+//   properties of the terrain meta shader used in the original map
 //
 // ============================================================
 
@@ -29,53 +28,10 @@ textures/radar_terrain_rebuild/alpha_000
 	surfaceparm trans
 }
 
-// Forward bunker main entrance roof,
-// 'q3map_noTJunc' added to fix terrain blending
-textures/radar_terrain_rebuild/gy_ml03a_wet
-{
-	qer_editorimage textures/graveyard/gy_ml03a.tga
-	q3map_noTJunc
-	implicitMap textures/graveyard/gy_ml03a.tga
-}
-
-// Forward bunker main entrance roof edges,
-// 'q3map_noTJunc' added to fix terrain blending
-textures/radar_terrain_rebuild/gy_ml03a
-{
-	qer_editorimage textures/graveyard/gy_ml03a.tga
-
-	q3map_noTJunc
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	{
-		map textures/graveyard/gy_ml03a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-// Various pieces of wall structures in 2nd stage
-// 'q3map_noTJunc' added to fix terrain blending
-textures/radar_terrain_rebuild/wall_c03d
-{
-	qer_editorimage textures/broken_castle/wall_c03d.tga
-
-	q3map_noTJunc
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	{
-		map textures/broken_castle/wall_c03d.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 textures/radar_terrain_rebuild/terrain2_base
 {
+	q3map_terrain
+
 	q3map_normalimage textures/sd_bumpmaps/normalmap_terrain.tga
 	
 	q3map_lightmapMergable
