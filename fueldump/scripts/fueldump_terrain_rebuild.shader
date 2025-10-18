@@ -8,11 +8,10 @@
 // Changes from original shaders:
 // - removed 'q3map_lightmapsize 512 512' from 'terrain_base'
 //   to allow higher resolution lightmaps
+// - added 'q3map_terrain' to 'terrain_base' to inherit the
+//   properties of the terrain meta shader used in the original map
 // - removed 'qer_editorimage' directives from all shaders
 //   in favor of the ones distributed with this map
-// - added some special shaders to work around modern face splitting
-//   algorithms - 'q3map_noTJunc' is used in some shaders to prevent
-//   terrain brush faces from getting split up
 //
 // ============================================================
 
@@ -29,183 +28,13 @@ textures/fueldump_terrain_rebuild/alpha_000
 	surfaceparm trans
 }
 
-// blend fix for riverbed near foot bridge on Axis side,
-// due to differences in NRC q3map2's face splitting algorithm
-textures/fueldump_terrain_rebuild/alpha_017_02
-{
-	qer_trans 0.5
-	qer_noCarve
-
-	q3map_alphaMod volume
-	q3map_alphaMod set 0.1702
-
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm trans
-}
-
-// variations of decal shaders with 'q3map_noTJunc' so they
-// don't split up the terrain brush faces and mess up the blends
-textures/fueldump_terrain_rebuild/snow_track03
-{
-	qer_editorimage textures/snow_sd/snow_track03.tga
-	q3map_nonplanar
-	q3map_shadeangle 120
-	q3map_noTJunc
-
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm pointlight
-	surfaceparm nomarks
-
-	polygonOffset
-	sort decal
-	{
-		map textures/snow_sd/snow_track03.tga
-		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
-		rgbGen identity
-	}
-}
-
-textures/fueldump_terrain_rebuild/snow_track03_faint
-{
-	qer_editorimage textures/snow_sd/snow_track03.tga
-	q3map_nonplanar
-	q3map_shadeangle 120
-	q3map_noTJunc
-
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm pointlight
-	surfaceparm nomarks
-
-	polygonOffset
-	sort decal
-	{
-		map textures/snow_sd/snow_track03.tga
-		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
-		rgbGen const ( 0.5 0.5 0.5 )
-	}
-}
-
-textures/fueldump_terrain_rebuild/snow_track03_end
-{
-	qer_editorimage textures/snow_sd/snow_track03_end.tga
-	q3map_nonplanar
-	q3map_shadeangle 120
-	q3map_noTJunc
-
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm pointlight
-	surfaceparm nomarks
-
-	polygonOffset
-	sort decal
-	{
-		map textures/snow_sd/snow_track03_end.tga
-		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
-		rgbGen identity
-	}
-}
-
-textures/fueldump_terrain_rebuild/snow_track03_end_faint
-{
-	qer_editorimage textures/snow_sd/snow_track03_end.tga
-	q3map_nonplanar
-	q3map_shadeangle 120
-	q3map_noTJunc
-
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm pointlight
-	surfaceparm nomarks
-
-	polygonOffset
-	sort decal
-	{
-		map textures/snow_sd/snow_track03_end.tga
-		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
-		rgbGen const ( 0.5 0.5 0.5 )
-	}
-}
-
-textures/fueldump_terrain_rebuild/river_edge_snowy
-{
-	qer_editorimage textures/snow_sd/river_edge_snowy.tga
-
-	q3map_nonplanar
-	q3map_shadeangle 120
-	q3map_noTJunc
-
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm pointlight
-	surfaceparm nomarks
-
-	polygonOffset
-	sort decal
-	{
-		map textures/snow_sd/river_edge_snowy.tga
-		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
-		rgbGen identity
-	}
-}
-
-textures/fueldump_terrain_rebuild/alphatree
-{
-	qer_editorimage textures/snow/s_dirt_m03i_alphatree.tga
-	q3map_nonplanar
-	q3map_shadeangle 120
-	q3map_noTJunc
-
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm pointlight
-	surfaceparm nomarks
-
-	polygonOffset
-	{
-		map textures/snow/s_dirt_m03i_alphatree.tga
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen vertex
-	}
-}
-
-// steps near main gate, 'q3map_noTJunc' added to fix terrain blending
-textures/fueldump_terrain_rebuild/s_castle_m03a_trim
-{
-	qer_editorimage textures/snow_sd/s_castle_m03a_trim.tga
-	
-	q3map_noTJunc
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	{
-		map textures/snow_sd/s_castle_m03a_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-// bunker corner near side wall, 'q3map_noTJunc' added to fix terrain blending
-textures/fueldump_terrain_rebuild/bunkerwall_lrg02
-{
-	qer_editorimage textures/snow_sd/bunkerwall_lrg02.tga
-
-	q3map_nonplanar
-	q3map_shadeangle 80
-	q3map_noTJunc
-
-	implicitMap textures/snow_sd/bunkerwall_lrg02.tga
-}
-
 //======================================================================
 // Base for metashaders
 //======================================================================
 textures/fueldump_terrain_rebuild/terrain_base
 {
+	q3map_terrain
+
 	q3map_lightmapMergable
 	q3map_lightmapaxis z
 	q3map_normalimage textures/sd_bumpmaps/normalmap_terrain.tga
@@ -364,38 +193,6 @@ textures/fueldump_terrain_rebuild/terrain1_0to2
 textures/fueldump_terrain_rebuild/terrain1_0to3
 {
 	q3map_baseshader textures/fueldump_terrain_rebuild/terrain_base
-	{
-		map textures/stone/mxsnow2.tga
-		rgbgen identity
-	}
-	{
-		map textures/stone/mxrock3h_snow.tga
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbgen identity
-		alphaGen vertex
-	}
-	{
-		lightmap $lightmap
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbgen identity
-	}
-	{
-		map textures/detail_sd/snowdetail.tga
-		blendFunc GL_DST_COLOR GL_SRC_COLOR
-		rgbgen identity
-		tcMod scale 5 5
-		detail
-	}
-}
-
-// fix for terrain blend near tunnel grate entrance,
-// 'q3map_noTJunc' required to prevent the face from splitting
-// due to the vertices being slightly off the grid
-textures/fueldump_terrain_rebuild/terrain1_0to3_notjunc
-{
-	qer_editorimage textures/fueldump_terrain_rebuild/terrain1_0to3.tga
-	q3map_baseshader textures/fueldump_terrain_rebuild/terrain_base
-	q3map_noTJunc
 	{
 		map textures/stone/mxsnow2.tga
 		rgbgen identity
