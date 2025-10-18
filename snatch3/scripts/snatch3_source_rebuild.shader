@@ -25,6 +25,8 @@ textures/snatch3_source_rebuild/alpha_000
 
 textures/snatch3_source_rebuild/terrain_base
 {
+	q3map_terrain
+
 	q3map_lightmapaxis z
 	q3map_lightmapmergable
 	q3map_tcMod rotate 33
@@ -34,6 +36,8 @@ textures/snatch3_source_rebuild/terrain_base
 
 textures/snatch3_source_rebuild/terrain_baseb
 {
+	q3map_terrain
+
 	q3map_lightmapaxis z
 	q3map_lightmapmergable
 	q3map_tcMod rotate 33
