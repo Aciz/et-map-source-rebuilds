@@ -12,6 +12,8 @@
 //   to allow any samplesize value for terrain
 // - removed original 'qer_editorimage' directive from
 //   'terrain_0' shader in favor of custom image
+// - added 'q3map_terrain' to 'terrain_base' to inherit the
+//   properties of the terrain meta shader used in the original map
 //
 // ============================================================
 
@@ -32,6 +34,8 @@ textures/caen2_source_rebuild/alpha_000
 
 textures/caen2_source_rebuild/terrain_base
 {
+	q3map_terrain
+
 	q3map_tcGen ivector ( 256 0 0 ) ( 0 256 0 )
 	q3map_lightmapMergable
 	q3map_lightmapaxis z
