@@ -26,6 +26,8 @@ textures/railgun_terrain_rebuild/alpha_000
 
 textures/railgun_terrain_rebuild/terrain_base
 {
+	q3map_terrain
+
 	q3map_lightmapMergable
 	q3map_lightmapaxis z
 	q3map_normalimage textures/sd_bumpmaps/normalmap_terrain.tga
