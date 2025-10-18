@@ -10,9 +10,11 @@
 //   to allow higher resolution lightmaps
 // - removed 'q3map_lightmapsamplesize 16' from 'terrain_base'
 //   to allow any samplesize value for terrain
-// - added some special shaders to work around modern face splitting
-//   algorithms - 'q3map_noTJunc' is used in some shaders to prevent
-//   terrain brush faces from getting split up
+// - added 'q3map_terrain' to 'terrain_base' and 'ocean_base' to
+//   inherit the properties of the terrain meta shaders
+//   used in the original map
+// - swappwed 'qer_editorimage' directive on 'ocean_base'
+//   to cast nicer shadows via 'surfaceparm lightfilter'
 //
 // ============================================================
 
@@ -29,45 +31,27 @@ textures/battery_terrain_rebuild/alpha_000
 	surfaceparm trans
 }
 
-// rocks up on the hills near forward bunker
-// 'q3map_noTJunc' added to fix terrain blending
-textures/battery_terrain_rebuild/rock_graynoise
-{
-    q3map_nonplanar
-    q3map_shadeangle 180
-    //q3map_tcmodscale 1.5 1.5
-		q3map_noTJunc
-    qer_editorimage textures/temperate_sd/rock_grayvar.tga
-    {
-        map $lightmap
-        rgbGen identity
-    }
-    {
-        map textures/temperate_sd/rock_grayvar.tga
-        blendFunc filter
-    }
-    {
-    	map textures/detail_sd/sanddetail.tga
-    	blendFunc GL_DST_COLOR GL_SRC_COLOR
-    	detail
-    	tcMod scale 6 6
-    }
-}
-
-// roof above MG42 near back door
-// 'q3map_noTJunc' added to fix terrain blending
-textures/battery_terrain_rebuild/ametal_m03
-{
-	qer_editorimage textures/metal_misc/ametal_m03.tga
-	q3map_noTJunc
-	surfaceparm metalsteps
-	implicitMap textures/metal_misc/ametal_m03.tga
-}
-
 // abstract shader for subclassed shaders
 textures/battery_terrain_rebuild/ocean_base
 {
-	qer_editorimage textures/liquids_sd/seawall_ocean.tga
+	q3map_terrain
+
+	qer_editorimage textures/liquids_sd/sea_bright_na.tga
+	qer_trans 0.75
+	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
+	q3map_globalTexture
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm lightfilter
+	surfaceparm pointlight
+	nopicmip
+}
+
+// without 'q3map_terrain'
+textures/battery_terrain_rebuild/ocean_base_noterrain
+{
+	qer_editorimage textures/liquids_sd/sea_bright_na.tga
 	qer_trans 0.75
 	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_globalTexture
@@ -188,12 +172,41 @@ textures/battery_terrain_rebuild/ocean_0to1
 	
 }
 
+// 'ocean_0' with alternate baseshader, without 'q3map_terrain'
+// this is used in the majority of the ocean, only parts near the beach
+// use the base shader with 'q3map_terrain' keyword
+textures/battery_terrain_rebuild/ocean_0_noterrain
+{
+	q3map_baseshader textures/battery_terrain_rebuild/ocean_base_noterrain
+	cull none
+	deformVertexes wave 1317 sin 0 2.5 0 0.15
+ 	deformVertexes wave 317 sin 0 1.5 0 0.30
+	
+	{
+		map textures/liquids_sd/seawall_specular.tga
+		blendFunc GL_ONE GL_ONE
+		rgbGen vertex
+		tcGen environment
+		depthWrite
+	}
+		
+	{ 
+		map textures/liquids_sd/sea_bright_na.tga
+		blendFunc blend
+		rgbGen identity
+		alphaGen const 0.8
+		tcmod scroll 0.005 0.03
+	}
+	
+}
+
 textures/battery_terrain_rebuild/terrain_base
 {
+	q3map_terrain
+
 	q3map_tcGen ivector ( 256 0 0 ) ( 0 256 0 )
 	q3map_lightmapMergable
 	q3map_lightmapaxis z
-	q3map_shadeangle 179
 }
 
 textures/battery_terrain_rebuild/terrain_0
