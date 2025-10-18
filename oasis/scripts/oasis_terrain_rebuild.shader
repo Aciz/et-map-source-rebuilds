@@ -10,9 +10,8 @@
 //   to allow higher resolution lightmaps
 // - removed 'q3map_lightmapsamplesize 16' from 'terrain_base'
 //   to allow any samplesize value for terrain
-// - added some special shaders to work around modern face splitting
-//   algorithms - 'q3map_noTJunc' is used in some shaders to prevent
-//   terrain brush faces from getting split up
+// - added 'q3map_terrain' to 'terrain_base' to inherit the
+//   properties of the terrain meta shader used in the original map
 //
 // ============================================================
 
@@ -29,30 +28,10 @@ textures/oasis_terrain_rebuild/alpha_000
 	surfaceparm trans
 }
 
-// gate near the anti-tank guns
-// 'q3map_noTJunc' added to fix terrain blending
-textures/oasis_terrain_rebuild/mesh_c02_clipmissle
-{
-	qer_trans 0.85
-	qer_editorimage textures/alpha/mesh_c02.tga
-	q3map_noTJunc
-	cull disable
-	nomipmaps
-	nopicmip
-
-	surfaceparm clipmissile
-	surfaceparm nomarks
-	surfaceparm alphashadow
-	surfaceparm playerclip
-	surfaceparm metalsteps
-	surfaceparm pointlight
-	surfaceparm trans
-
-	implicitMask textures/alpha/mesh_c02.tga
-}
-
 textures/oasis_terrain_rebuild/terrain_base
 {
+	q3map_terrain
+
 	q3map_tcGen ivector ( 256 0 0 ) ( 0 256 0 )
 	q3map_lightmapMergable
 	q3map_lightmapaxis z
