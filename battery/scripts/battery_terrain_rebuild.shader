@@ -881,93 +881,6 @@ textures/battery_terrain_rebuild/terrain_4to0
 
 }
 
-// reversed 1to2
-textures/battery_terrain_rebuild/terrain_2to1
-{
-	q3map_baseshader textures/battery_terrain_rebuild/terrain_base
-	surfaceparm landmine
-	surfaceparm gravelsteps
-	{
-		map textures/temperate_sd/rocky_sand.tga
-		rgbgen identity
-		alphaGen vertex
-
-	}
-	{
-		map textures/temperate_sd/sand_wave_bright.tga
-		rgbgen identity
-		alphaGen vertex
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-	{
-		map $lightmap
-		blendFunc GL_DST_COLOR GL_ZERO
-	}
-	{
-		map textures/detail_sd/sanddetail.tga
-		blendFunc GL_DST_COLOR GL_SRC_COLOR
-		detail
-		tcMod scale 4 4
-	}
-
-}
-
-// reversed 1to3
-textures/battery_terrain_rebuild/terrain_3to1
-{
-	q3map_baseshader textures/battery_terrain_rebuild/terrain_base
-	{
-		map textures/temperate_sd/rock_graynoise.tga
-		rgbgen identity
-		alphaGen vertex
-	}
-	{
-		map textures/temperate_sd/sand_wave_bright.tga
-		rgbgen identity
-		alphaGen vertex
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-	{
-		map $lightmap
-		blendFunc GL_DST_COLOR GL_ZERO
-	}
-	{
-		map textures/detail_sd/sanddetail.tga
-		blendFunc GL_DST_COLOR GL_SRC_COLOR
-		detail
-		tcMod scale 4 4
-	}
-
-}
-
-// reversed 2to3
-textures/battery_terrain_rebuild/terrain_3to2
-{
-	q3map_baseshader textures/battery_terrain_rebuild/terrain_base
-	{
-		map textures/temperate_sd/rock_graynoise.tga
-		rgbgen identity
-		alphaGen vertex
-	}
-	{
-		map textures/temperate_sd/rocky_sand.tga
-		rgbgen identity
-		alphaGen vertex
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-	{
-		map $lightmap
-		blendFunc GL_DST_COLOR GL_ZERO
-	}
-	{
-		map textures/detail_sd/sanddetail.tga
-		blendFunc GL_DST_COLOR GL_SRC_COLOR
-		detail
-		tcMod scale 4 4
-	}
-
-}
-
 // reversed 3to4
 textures/battery_terrain_rebuild/terrain_4to3
 {
@@ -979,6 +892,62 @@ textures/battery_terrain_rebuild/terrain_4to3
 	}
 	{
 		map textures/temperate_sd/rock_graynoise.tga
+		rgbgen identity
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+	}
+	{
+		map textures/detail_sd/sanddetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		detail
+		tcMod scale 4 4
+	}
+
+}
+
+// reversed 3to5
+textures/battery_terrain_rebuild/terrain_5to3
+{
+	q3map_baseshader textures/battery_terrain_rebuild/terrain_base
+	{
+		map textures/temperate_sd/sand_patchnoise.tga
+		rgbgen identity
+		alphaGen vertex
+	}
+	{
+		map textures/temperate_sd/rock_graynoise.tga
+		rgbgen identity
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+	}
+	{
+		map textures/detail_sd/sanddetail.tga
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		detail
+		tcMod scale 4 4
+	}
+
+}
+
+// reversed 4to5
+textures/battery_terrain_rebuild/terrain_5to4
+{
+	q3map_baseshader textures/battery_terrain_rebuild/terrain_base
+	{
+		map textures/temperate_sd/sand_patchnoise.tga
+		rgbgen identity
+		alphaGen vertex
+	}
+	{
+		map textures/temperate_sd/rock_grayvar.tga
 		rgbgen identity
 		alphaGen vertex
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
