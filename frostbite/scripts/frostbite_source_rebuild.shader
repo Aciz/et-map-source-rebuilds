@@ -42,8 +42,8 @@ textures/frostbite_source_rebuild/alpha_050
 
 textures/frostbite_source_rebuild/terrain_base
 {
-	q3map_nonPlanar
-	q3map_shadeangle 179
+	q3map_terrain
+
 	q3map_lightmapMergable
 	q3map_lightmapaxis z
 }
