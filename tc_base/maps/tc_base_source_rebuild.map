@@ -56836,147 +56836,140 @@ brushDef
 // entity 283
 {
 "classname" "misc_model"
-"origin" "1417 758 9"
-"model" "models/mapobjects/blitz_sd/blitzbody2_s.md3"
-"angle" "180"
-}
-// entity 284
-{
-"classname" "misc_model"
 "origin" "1177 756 29"
 "model" "models/mapobjects/blitz_sd/blitzwheelsf_mm.md3"
 "angle" "180"
 }
-// entity 285
+// entity 284
 {
 "classname" "misc_model"
 "origin" "1347 755 29"
 "model" "models/mapobjects/blitz_sd/blitzwheelsb_mm.md3"
 "angle" "180"
 }
-// entity 286
+// entity 285
 {
 "classname" "misc_model"
 "origin" "1417 758 9"
 "model" "models/mapobjects/blitz_sd/blitzbody2_s.md3"
 "angle" "-180"
-"_remap" "models/mapobjects/blitz_sd/blitz_sd_windows_s;models/mapobjects/blitz_sd/blitz_sd_windows_s_mm"
+"_remap" "models/mapobjects/blitz_sd/blitz_sd_windows_s;textures/tc_base_source_rebuild/blitz_sd_windows_s_mm"
 }
-// entity 287
+// entity 286
 {
 "classname" "misc_model"
 "origin" "96 -296 32"
 "model" "models/mapobjects/xlab/cart.md3"
 }
-// entity 288
+// entity 287
 {
 "classname" "misc_model"
 "origin" "56 -456 32"
 "model" "models/mapobjects/props_sd/fuel_can.md3"
 "angle" "112"
 }
-// entity 289
+// entity 288
 {
 "classname" "misc_model"
 "origin" "696 -648 32"
 "model" "models/mapobjects/props_sd/fuel_can.md3"
 "angle" "112"
 }
-// entity 290
+// entity 289
 {
 "classname" "misc_model"
 "origin" "728 -632 32"
 "model" "models/mapobjects/props_sd/fuel_can.md3"
 "angle" "112"
 }
-// entity 291
+// entity 290
 {
 "classname" "misc_model"
 "origin" "768 -688 32"
 "model" "models/mapobjects/xlab/cart.md3"
 }
-// entity 292
+// entity 291
 {
 "classname" "misc_model"
 "origin" "404 416 456"
 "model" "models/mapobjects/light/cagelightr.md3"
 }
-// entity 293
+// entity 292
 {
 "classname" "misc_model"
 "origin" "-1412 1760 128"
 "model" "models/mapobjects/light/cagelightr.md3"
 }
-// entity 294
+// entity 293
 {
 "classname" "misc_model"
 "origin" "-936 -1168 32"
 "model" "models/mapobjects/xlab/cart.md3"
 }
-// entity 295
+// entity 294
 {
 "classname" "misc_model"
 "origin" "-984 -1240 32"
 "model" "models/mapobjects/props_sd/fuel_can.md3"
 "angle" "112"
 }
-// entity 296
+// entity 295
 {
 "classname" "misc_model"
 "origin" "-600 -779 76"
 "model" "models/mapobjects/furniture/type.md3"
 "angle" "-180"
 }
-// entity 297
+// entity 296
 {
 "classname" "misc_model"
 "origin" "-576 -942 32"
 "model" "models/mapobjects/furniture/clubchair.md3"
 "angle" "90"
 }
-// entity 298
+// entity 297
 {
 "classname" "misc_model"
 "origin" "-448 -942 32"
 "model" "models/mapobjects/furniture/clubchair.md3"
 "angle" "90"
 }
-// entity 299
+// entity 298
 {
 "classname" "misc_model"
 "origin" "-726 -932 32"
 "model" "models/mapobjects/furniture/clubchair.md3"
 "angle" "180"
 }
-// entity 300
+// entity 299
 {
 "classname" "misc_model"
 "origin" "-726 -988 32"
 "model" "models/mapobjects/furniture/clubchair.md3"
 "angle" "180"
 }
-// entity 301
+// entity 300
 {
 "classname" "misc_model"
 "origin" "-726 -1044 32"
 "model" "models/mapobjects/furniture/clubchair.md3"
 "angle" "180"
 }
-// entity 302
+// entity 301
 {
 "classname" "misc_model"
 "origin" "-726 -1252 32"
 "model" "models/mapobjects/furniture/clubchair.md3"
 "angle" "180"
 }
-// entity 303
+// entity 302
 {
 "classname" "misc_model"
 "origin" "-726 -1308 32"
 "model" "models/mapobjects/furniture/clubchair.md3"
 "angle" "180"
 }
-// entity 304
+// entity 303
 {
 "classname" "misc_model"
 "origin" "-726 -1364 32"

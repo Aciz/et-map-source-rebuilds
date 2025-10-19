@@ -20,6 +20,21 @@ textures/tc_base_source_rebuild/blitz_sd_windows_mm
 	{
 		map models/mapobjects/blitz_sd/blitz_sd.tga
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
-		rgbgen environment
+		rgbgen vertex
+	}
+}
+
+textures/tc_base_source_rebuild/blitz_sd_windows_s_mm
+{
+	qer_editorimage models/mapobjects/blitz_sd/blitz_sd_s.tga
+	{
+		map textures/effects/envmap_slate.tga
+		rgbGen lightingdiffuse
+		tcGen environment
+	}
+	{
+		map models/mapobjects/blitz_sd/blitz_sd_s.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		rgbgen vertex
 	}
 }
