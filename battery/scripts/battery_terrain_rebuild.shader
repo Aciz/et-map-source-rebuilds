@@ -44,7 +44,7 @@ textures/battery_terrain_rebuild/blitz_sd_windows_mm
 	{
 		map models/mapobjects/blitz_sd/blitz_sd.tga
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
-		rgbgen environment
+		rgbgen vertex
 	}
 }
 
