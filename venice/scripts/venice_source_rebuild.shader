@@ -8,6 +8,8 @@
 // Changes from original shaders:
 // - removed 'q3map_lightmapsize 512 512' from 'courtyard_brick2'
 //   to allow for higher resolution lightmaps
+// - added 'q3map_fogDir' to the fog shader to enforce
+//   consistent fogging direction inside the canal
 //
 // ============================================================
 
@@ -37,4 +39,22 @@ textures/venice_source_rebuild/courtyard_brick2
 //	q3map_tcGen ivector ( 128 0 0 ) ( 0 128 0 )
 	implicitMap textures/venice_floor_c1/courtyard_brick2.tga
 
+}
+
+// canal fog, with forced 'q3map_fogDir'
+// modern compilers have slightly different algorithm for determining
+// the fog direction, this enforces a consistent direction for the fog,
+// which results in it looking correct in most scenarios
+textures/venice_source_rebuild/canal_fog
+{
+	qer_editorimage textures/liquids_c1/pool3d_5c.tga
+        qer_trans 0.5
+
+	q3map_fogDir ( 0 1 0 )
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nolightmap
+	surfaceparm fog
+	fogparms ( 0.18 0.19 0.13 ) 4096
 }
