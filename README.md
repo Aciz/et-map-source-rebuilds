@@ -7,7 +7,7 @@ There are two main things that these modifications perform:
 
 Additionally, all maps have been converted from axial projection to brush primitives.
 
-## Completed maps
+## Available maps
 * Battery
 * Fueldump
 * Goldrush
@@ -33,7 +33,11 @@ _* = with caveats, please see the [wiki](https://github.com/Aciz/et-map-source-r
 * Some terrains use special "reverse blend" shaders in some places. This is because certain blends present in the maps are only possible if using PCX alphamap blending, which requires the blending direction to be reversed for a `q3map_alphaMod` blend to work. This is because PCX alphamap blending does not care about the blend direction unlike `q3map_alphaMod` blending, it only cares if you have a shader available that is able to blend A -> B.
 * Maps created from decompiles were decompiled with texture alignment resolving enabled. They should be mostly fine in terms of texture alignment, but a thorough check has not been performed, only obvious issues that decompile has trouble resolving (some doors & other movers).
 
-For information about map-specific changes, please see the [wiki](https://github.com/Aciz/et-map-source-rebuilds/wiki) for more information.
+For information about map-specific changes, please check the [wiki](https://github.com/Aciz/et-map-source-rebuilds/wiki) page for the map.
+
+## Future plans
+
+The obvious next step specifically for the maps done from decompiles, would be restoring light entities. All maps that I've done so far use light entities a lot to light up the map, so these version are inherintly darker compared to the originals. This however is a pretty big and time consuming job, and not very straight forward. Matching the lighting has one major issue, which is that it's not clear what settings the original map was compiled with, as GtkRadiant's Q3Map2 does not write the compile settings to the worldspawn. Some maps do include a readme with the information however. Even so, matching the lighing exactly 1:1 is practically impossible, but a close enough job would already be a good first step.
 
 # License
 
