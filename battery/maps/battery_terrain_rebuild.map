@@ -79878,6 +79878,7 @@ brushDef
 "origin" "4847 -5286 1024"
 "model" "models/mapobjects/blitz_sd/blitzbody3_mm.md3"
 "angle" "270"
+"_remap" "models/mapobjects/blitz_sd/blitz_sd_windows_mm;textures/battery_terrain_rebuild/blitz_sd_windows_mm"
 }
 // entity 4
 {

@@ -31,6 +31,23 @@ textures/battery_terrain_rebuild/alpha_000
 	surfaceparm trans
 }
 
+// fixed version of stock blitz window shader, with corrected
+// 'rgbGen' directive to make the windows work with 'misc_model'
+textures/battery_terrain_rebuild/blitz_sd_windows_mm
+{
+	qer_editorimage models/mapobjects/blitz_sd/blitz_sd.tga
+	{
+		map textures/effects/envmap_slate.tga
+		rgbGen lightingdiffuse
+		tcGen environment
+	}
+	{
+		map models/mapobjects/blitz_sd/blitz_sd.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		rgbgen environment
+	}
+}
+
 // abstract shader for subclassed shaders
 textures/battery_terrain_rebuild/ocean_base
 {
