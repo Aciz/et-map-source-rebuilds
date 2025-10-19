@@ -227552,14 +227552,14 @@ brushDef
 // entity 1077
 {
 "classname" "misc_model"
-"origin" "64 1381 -160"
+"origin" "64 1381 -159"
 "model" "models/venice/ase/carpet_c03.ase"
 "spawnflags" "4"
 }
 // entity 1078
 {
 "classname" "misc_model"
-"origin" "279.177 1449.69 -160"
+"origin" "279.177 1449.69 -159"
 "model" "models/venice/ase/carpet_c03.ase"
 "angle" "-45"
 "spawnflags" "4"
@@ -227567,7 +227567,7 @@ brushDef
 // entity 1079
 {
 "classname" "misc_model"
-"origin" "296.314 1107.18 -160"
+"origin" "296.314 1107.18 -159"
 "model" "models/venice/ase/carpet_c03.ase"
 "angle" "45"
 "spawnflags" "4"
@@ -227575,9 +227575,10 @@ brushDef
 // entity 1080
 {
 "classname" "misc_model"
-"origin" "1464 -800 -88"
+"origin" "1464 -800 -87"
 "model" "models/venice/ase/carpet_c03.ase"
 "angle" "-90"
+"spawnflags" "4"
 }
 // entity 1081
 {
