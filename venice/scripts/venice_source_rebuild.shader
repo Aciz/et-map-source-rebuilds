@@ -26,7 +26,7 @@ textures/venice_source_rebuild/blitz_sd_windows_mm
 	{
 		map models/mapobjects/blitz_sd/blitz_sd.tga
 		blendfunc gl_one gl_one_minus_src_alpha
-		rgbgen environment
+		rgbgen vertex
 	}
 }
 
