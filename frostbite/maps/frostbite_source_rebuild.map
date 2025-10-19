@@ -69504,6 +69504,7 @@ brushDef
 "classname" "misc_model"
 "origin" "72 56 1"
 "model" "models/mapobjects/blitz_sd/blitzbody3_s_mm.md3"
+"_remap" "models/mapobjects/blitz_sd/blitz_sd_windows_s_mm;textures/frostbite_source_rebuild/blitz_sd_windows_s_mm"
 }
 // entity 488
 {
@@ -69530,6 +69531,7 @@ brushDef
 "origin" "-136 203 1"
 "model" "models/mapobjects/blitz_sd/blitzbody3_s_mm.md3"
 "angle" "45"
+"_remap" "models/mapobjects/blitz_sd/blitz_sd_windows_s_mm;textures/frostbite_source_rebuild/blitz_sd_windows_s_mm"
 }
 // entity 492
 {
@@ -69551,6 +69553,7 @@ brushDef
 "origin" "120 1592 1"
 "model" "models/mapobjects/blitz_sd/blitzbody3_s_mm.md3"
 "angle" "-90"
+"_remap" "models/mapobjects/blitz_sd/blitz_sd_windows_s_mm;textures/frostbite_source_rebuild/blitz_sd_windows_s_mm"
 }
 // entity 495
 {
@@ -69579,7 +69582,7 @@ brushDef
 "origin" "152 1048 1"
 "model" "models/mapobjects/blitz_sd/blitzbody2_s.md3"
 "angle" "-90"
-"_remap" "models/mapobjects/blitz_sd/blitz_sd_windows_s;models/mapobjects/blitz_sd/blitz_sd_windows_s_mm"
+"_remap" "models/mapobjects/blitz_sd/blitz_sd_windows_s;textures/frostbite_source_rebuild/blitz_sd_windows_s_mm"
 }
 // entity 499
 {

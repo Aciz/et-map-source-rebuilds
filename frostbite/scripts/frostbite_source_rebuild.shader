@@ -40,6 +40,23 @@ textures/frostbite_source_rebuild/alpha_050
 	surfaceparm trans
 }
 
+// fixed version of stock blitz window shader, with corrected
+// 'rgbGen' directive to make the windows work with 'misc_model'
+textures/frostbite_source_rebuild/blitz_sd_windows_s_mm
+{
+	qer_editorimage models/mapobjects/blitz_sd/blitz_sd_s.tga
+	{
+		map textures/effects/envmap_slate.tga
+		rgbGen lightingdiffuse
+		tcGen environment
+	}
+	{
+		map models/mapobjects/blitz_sd/blitz_sd_s.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		rgbgen vertex
+	}
+}
+
 textures/frostbite_source_rebuild/terrain_base
 {
 	q3map_terrain
