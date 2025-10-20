@@ -27,6 +27,7 @@ _* = with caveats, please see the [wiki](https://github.com/Aciz/et-map-source-r
 
 ## Other planned maps
 * Karsiah TE2
+* ET Beach Invasion
 
 ## General notes
 * If you utilize these maps in your own creations, **please do not edit the shaders.** If you need to make modifications, please create your own shaders with unique names.
