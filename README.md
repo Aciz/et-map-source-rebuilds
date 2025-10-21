@@ -22,11 +22,11 @@ Additionally, all maps have been converted from axial projection to brush primit
 * Caen 2*
 * Venice*
 * ET UFO*
+* Karsiah TE2*
 
 _* = with caveats, please see the [wiki](https://github.com/Aciz/et-map-source-rebuilds/wiki) for more information._
 
 ## Other planned maps
-* Karsiah TE2
 * ET Beach Invasion
 
 ## General notes
