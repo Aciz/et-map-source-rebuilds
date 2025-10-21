@@ -23,11 +23,12 @@ Additionally, all maps have been converted from axial projection to brush primit
 * Venice*
 * ET UFO*
 * Karsiah TE2*
+* ET Beach Invasion*
 
 _* = with caveats, please see the [wiki](https://github.com/Aciz/et-map-source-rebuilds/wiki) for more information._
 
 ## Other planned maps
-* ET Beach Invasion
+* None at the moment, open to suggestions.
 
 ## General notes
 * If you utilize these maps in your own creations, **please do not edit the shaders.** If you need to make modifications, please create your own shaders with unique names.
