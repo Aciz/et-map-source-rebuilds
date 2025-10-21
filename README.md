@@ -7,35 +7,30 @@ There are two main things that these modifications perform:
 
 Additionally, all maps have been converted from axial projection to brush primitives.
 
-## Available maps
-* Battery
-* Fueldump
-* Goldrush
-* Oasis
-* Radar
-* Railgun
-* Frostbite*
-* Snatch 3*
-* Braundorf B4*
-* Warbell*
-* TC Base*
-* Caen 2*
-* Venice*
-* ET UFO*
-* Karsiah TE2*
-* ET Beach Invasion*
-
-_* = with caveats, please see the [wiki](https://github.com/Aciz/et-map-source-rebuilds/wiki) for more information._
-
-## Other planned maps
-* None at the moment, open to suggestions.
-
 ## General notes
 * If you utilize these maps in your own creations, **please do not edit the shaders.** If you need to make modifications, please create your own shaders with unique names.
 * Some terrains use special "reverse blend" shaders in some places. This is because certain blends present in the maps are only possible if using PCX alphamap blending, which requires the blending direction to be reversed for a `q3map_alphaMod` blend to work. This is because PCX alphamap blending does not care about the blend direction unlike `q3map_alphaMod` blending, it only cares if you have a shader available that is able to blend A -> B.
 * Maps created from decompiles were decompiled with texture alignment resolving enabled. They should be mostly fine in terms of texture alignment, but a thorough check has not been performed, only obvious issues that decompile has trouble resolving (some doors & other movers).
 
 For information about map-specific changes, please check the [wiki](https://github.com/Aciz/et-map-source-rebuilds/wiki) page for the map.
+
+## Available maps
+* All original 6 maps
+* Braundorf B4*
+* Caen 2*
+* ET Beach Invasion*
+* ET UFO*
+* Frostbite*
+* Karsiah TE2*
+* Snatch 3*
+* TC Base*
+* Venice*
+* Warbell*
+
+_* = with caveats, please see the [wiki](https://github.com/Aciz/et-map-source-rebuilds/wiki) for more information._
+
+## Other planned maps
+* None at the moment, open to suggestions.
 
 ## Future plans
 
