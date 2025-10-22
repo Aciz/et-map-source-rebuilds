@@ -1,7 +1,7 @@
 # Blender 4.5.3 LTS MTL File: 'arch_side_ammo_1st.blend'
 # www.blender.org
 
-newmtl textures/venice_ase_c1/er_white.001
+newmtl textures/venice_ase_c1/er_white
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Ks 0.000000 0.000000 0.000000
