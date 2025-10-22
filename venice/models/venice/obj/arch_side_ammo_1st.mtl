@@ -1,0 +1,32 @@
+# Blender 4.5.3 LTS MTL File: 'arch_side_ammo_1st.blend'
+# www.blender.org
+
+newmtl textures/venice_ase_c1/er_white.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/er_white.tga
+
+newmtl textures/venice_ase_c1/oldspain_kediwall5
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/oldspain_kediwall5.tga
+
+newmtl textures/venice_ase_c1/se_wal1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/se_wal1.tga

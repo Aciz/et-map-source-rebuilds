@@ -1,0 +1,42 @@
+# Blender 4.5.3 LTS MTL File: 'archway_cp_allies.blend'
+# www.blender.org
+
+newmtl textures/venice_ase_c1/door_c17
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/door_c17.tga
+
+newmtl textures/venice_ase_c1/er_white
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/er_white.tga
+
+newmtl textures/venice_ase_c1/tobruk_wall_base3_inv
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/tobruk_wall_base3_inv.tga
+
+newmtl textures/venice_ase_c1/tobruk_wall_base7
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/tobruk_wall_base7.tga

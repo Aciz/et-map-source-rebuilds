@@ -1,0 +1,132 @@
+# Blender 4.5.3 LTS MTL File: 'archway_outpost.blend'
+# www.blender.org
+
+newmtl textures/alpha_c1/venice_lattice3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/alpha_c1/venice_lattice3.tga
+
+newmtl textures/venice_ase_c1/c1_curtain_win1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/c1_curtain_win1.tga
+
+newmtl textures/venice_ase_c1/c1_shutter_green1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/c1_shutter_green1.tga
+
+newmtl textures/venice_ase_c1/card_tile_rof1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/card_tile_rof1.tga
+
+newmtl textures/venice_ase_c1/castle_c09_2
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/castle_c09_2.tga
+
+newmtl textures/venice_ase_c1/castle_c17
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/castle_c17.tga
+
+newmtl textures/venice_ase_c1/castle_m03a_step
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/castle_m03a_step.tga
+
+newmtl textures/venice_ase_c1/concrete_c07bcmp_sand
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/concrete_c07bcmp_sand.tga
+
+newmtl textures/venice_ase_c1/door_c17
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/door_c17.tga
+
+newmtl textures/venice_ase_c1/er_white
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/er_white.tga
+
+newmtl textures/venice_ase_c1/low_basegreen256_w1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/low_basegreen256_w1.tga
+
+newmtl textures/venice_ase_c1/low_basegreen256_w2b
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/low_basegreen256_w2b.tga
+
+newmtl textures/venice_ase_c1/trim_c03b
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/aciz/mapping/et/etmain/originals_rebuilds.pk3dir/models/venice/home/aciz/mapping/et/etmain/venice.pk3dir/textures/venice_ase_c1/trim_c03b.tga

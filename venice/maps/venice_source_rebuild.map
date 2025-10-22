@@ -225585,9 +225585,9 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "-13 167 -94"
-"model" "models/venice/ase/archway_outpost.ase"
-"angle" "135"
+"model" "models/venice/obj/archway_outpost.obj"
 "spawnflags" "6"
+"angle" "-45"
 }
 // entity 797
 {
@@ -226002,8 +226002,9 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "-2432 -640 -240"
-"model" "models/venice/ase/archway_cp_allies.ase"
+"model" "models/venice/obj/archway_cp_allies.obj"
 "spawnflags" "4"
+"angle" "180"
 }
 // entity 857
 {
@@ -226081,46 +226082,18 @@ brushDef
 // entity 867
 {
 "classname" "misc_model"
-"origin" "-1583.57 -1657.99 -387.622"
-"model" "models/venice/ase/pole_wood.ase"
-"angles" "2 25 4"
-}
-// entity 868
-{
-"classname" "misc_model"
-"origin" "-1584.97 -2002.11 -387.66"
-"model" "models/venice/ase/pole_wood.ase"
-"angles" "-3 85 -3"
-}
-// entity 869
-{
-"classname" "misc_model"
-"origin" "-1303.06 -1911.66 -388.537"
-"model" "models/venice/ase/pole_wood.ase"
-"angles" "-8 0 -11"
-}
-// entity 870
-{
-"classname" "misc_model"
-"origin" "-1088 -1910 -392.317"
-"model" "models/venice/ase/pole_wood.ase"
-"angles" "0 0 -14"
-}
-// entity 871
-{
-"classname" "misc_model"
 "origin" "-1948 -1720 64"
 "model" "models/mapobjects/furniture/clubchair.md3"
 "angle" "-40"
 }
-// entity 872
+// entity 868
 {
 "classname" "misc_model"
 "origin" "-1944 -1840 64"
 "model" "models/mapobjects/furniture/clubchair.md3"
 "angle" "30"
 }
-// entity 873
+// entity 869
 {
 "classname" "misc_model"
 "origin" "-1447 -374 -134"
@@ -226128,7 +226101,7 @@ brushDef
 "modelscale" "0.5"
 "angle" "-180"
 }
-// entity 874
+// entity 870
 {
 "classname" "misc_model"
 "origin" "-1447 -374 -133"
@@ -226136,7 +226109,7 @@ brushDef
 "angle" "-90"
 "modelscale_vec" "1 1.5 1"
 }
-// entity 875
+// entity 871
 {
 "classname" "misc_model"
 "origin" "-4489 655 11"
@@ -226144,7 +226117,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "90"
 }
-// entity 876
+// entity 872
 {
 "classname" "misc_model"
 "origin" "-4489 911 11"
@@ -226152,28 +226125,28 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "90"
 }
-// entity 877
+// entity 873
 {
 "classname" "misc_model"
 "origin" "-4576 784 44"
 "model" "models/mapobjects/light/bel_lamp_top40.md3"
 "modelscale_vec" "1 1 0.5"
 }
-// entity 878
+// entity 874
 {
 "classname" "misc_model"
 "origin" "-3392 620 -166"
 "model" "models/mapobjects/military_trim/dragon_teeth.md3"
 "modelscale" "1.5"
 }
-// entity 879
+// entity 875
 {
 "classname" "misc_model"
 "origin" "-3392 1124 -166"
 "model" "models/mapobjects/military_trim/dragon_teeth.md3"
 "modelscale" "1.5"
 }
-// entity 880
+// entity 876
 {
 "classname" "misc_model"
 "origin" "-2816 896 -160"
@@ -226181,14 +226154,14 @@ brushDef
 "angle" "90"
 "modelscale_vec" "2 2 1.5"
 }
-// entity 881
+// entity 877
 {
 "classname" "misc_model"
 "origin" "-1536 896 -160"
 "model" "models/mapobjects/tree_temperate_sd/hightree1.md3"
 "modelscale_vec" "2 2 1.5"
 }
-// entity 882
+// entity 878
 {
 "classname" "misc_model"
 "origin" "-2162 80 -150"
@@ -226196,35 +226169,35 @@ brushDef
 "angle" "90"
 "modelscale" "1.5"
 }
-// entity 883
+// entity 879
 {
 "classname" "misc_model"
 "origin" "-2166 452 -168"
 "model" "models/mapobjects/military_trim/dragon_teeth.md3"
 "modelscale" "1.5"
 }
-// entity 884
+// entity 880
 {
 "classname" "misc_model"
 "origin" "-2148 68 -162"
 "model" "models/mapobjects/military_trim/dragon_teeth.md3"
 "modelscale" "1.5"
 }
-// entity 885
+// entity 881
 {
 "classname" "misc_model"
 "origin" "-1906 1636 -164"
 "model" "models/mapobjects/military_trim/dragon_teeth.md3"
 "modelscale" "1.5"
 }
-// entity 886
+// entity 882
 {
 "classname" "misc_model"
 "origin" "-1888 1252 -168"
 "model" "models/mapobjects/military_trim/dragon_teeth.md3"
 "modelscale" "1.5"
 }
-// entity 887
+// entity 883
 {
 "classname" "misc_model"
 "origin" "-1906 1264 -150"
@@ -226232,69 +226205,69 @@ brushDef
 "angle" "90"
 "modelscale" "1.5"
 }
-// entity 888
+// entity 884
 {
 "classname" "misc_model"
 "origin" "-514 1392 -168"
 "model" "models/mapobjects/miltary_trim/sandbag1.md3"
 }
-// entity 889
+// entity 885
 {
 "classname" "misc_model"
 "origin" "-418 1416 -168"
 "model" "models/mapobjects/miltary_trim/sandbag1_45.md3"
 "angle" "45"
 }
-// entity 890
+// entity 886
 {
 "classname" "misc_model"
 "origin" "-894 1710 -168"
 "model" "models/mapobjects/miltary_trim/sandbag1_45.md3"
 "angle" "-90"
 }
-// entity 891
+// entity 887
 {
 "classname" "misc_model"
 "origin" "-721 1410 -96"
 "model" "models/mapobjects/light/lantern.md3"
 "angle" "90"
 }
-// entity 892
+// entity 888
 {
 "classname" "misc_model"
 "origin" "-2815 2138 -134"
 "model" "models/mapobjects/light/lantern.md3"
 "angle" "90"
 }
-// entity 893
+// entity 889
 {
 "classname" "misc_model"
 "origin" "-2633 2258 -134"
 "model" "models/mapobjects/light/lantern.md3"
 "angle" "90"
 }
-// entity 894
+// entity 890
 {
 "classname" "misc_model"
 "origin" "-2479 2134 -134"
 "model" "models/mapobjects/light/lantern.md3"
 "angle" "90"
 }
-// entity 895
+// entity 891
 {
 "classname" "misc_model"
 "origin" "-2212 2154 -208"
 "model" "models/mapobjects/archeology/vase2.md3"
 "modelscale" "4"
 }
-// entity 896
+// entity 892
 {
 "classname" "misc_model"
 "origin" "-2232 2142 -208"
 "model" "models/mapobjects/archeology/vase3.md3"
 "modelscale" "2"
 }
-// entity 897
+// entity 893
 {
 "classname" "misc_model"
 "origin" "-2232 2167 -7"
@@ -226302,47 +226275,47 @@ brushDef
 "angle" "-180"
 "modelscale_vec" "1 1.5 1"
 }
-// entity 898
+// entity 894
 {
 "classname" "misc_model"
 "origin" "-2300 2172 -208"
 "model" "models/mapobjects/vehicles/wagon_tilt.md3"
 "angles" "-3 -8 12"
 }
-// entity 899
+// entity 895
 {
 "classname" "misc_model"
 "origin" "-2356 2406 -90"
 "model" "models/mapobjects/tree_temperate_sd/hightrunk.md3"
 }
-// entity 900
+// entity 896
 {
 "classname" "misc_model"
 "origin" "-2354 2406 -86"
 "model" "models/mapobjects/tree_temperate_sd/smallfoliage2.md3"
 }
-// entity 901
+// entity 897
 {
 "classname" "misc_model"
 "origin" "-2378 2500 -206"
 "model" "models/mapobjects/tree_temperate_sd/bush_temperate3.md3"
 "modelscale" "1.5"
 }
-// entity 902
+// entity 898
 {
 "classname" "misc_model"
 "origin" "-2334 2582 -205"
 "model" "models/mapobjects/tree_temperate_sd/bush_temperate1.md3"
 "modelscale" "1.25"
 }
-// entity 903
+// entity 899
 {
 "classname" "misc_model"
 "origin" "-2257 1914 216"
 "model" "models/mapobjects/light/lantern.md3"
 "angle" "90"
 }
-// entity 904
+// entity 900
 {
 "classname" "misc_model"
 "origin" "-2232 2167 -7"
@@ -226350,7 +226323,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 905
+// entity 901
 {
 "classname" "misc_model"
 "origin" "-2055 2200 -7"
@@ -226358,7 +226331,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 906
+// entity 902
 {
 "classname" "misc_model"
 "origin" "-2063 2432 -47"
@@ -226366,27 +226339,27 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 907
+// entity 903
 {
 "classname" "misc_model"
 "origin" "-2184 2654 -95"
 "model" "models/mapobjects/light/bel_lamp_arm_off_gm.md3"
 }
-// entity 908
+// entity 904
 {
 "classname" "misc_model"
 "origin" "-2228 1968 -68"
 "model" "models/mapobjects/light/bel_lamp_top40.md3"
 "modelscale_vec" "1 1 0.5"
 }
-// entity 909
+// entity 905
 {
 "classname" "misc_model"
 "origin" "-2084 1968 -68"
 "model" "models/mapobjects/light/bel_lamp_top40.md3"
 "modelscale_vec" "1 1 0.5"
 }
-// entity 910
+// entity 906
 {
 "classname" "misc_model"
 "origin" "-1776 2615 -6"
@@ -226394,71 +226367,72 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 911
+// entity 907
 {
 "classname" "misc_model"
 "origin" "-1576 2633 -47"
 "model" "models/mapobjects/light/bel_lamp_arm_off_gm.md3"
 "modelscale_vec" "1 1.5 1"
 }
-// entity 912
+// entity 908
 {
 "classname" "misc_model"
 "origin" "-1696 2716 -56"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 913
+// entity 909
 {
 "classname" "misc_model"
 "origin" "-1584 2484 -40"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 914
+// entity 910
 {
 "classname" "misc_model"
 "origin" "-1584 2324 -40"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 915
+// entity 911
 {
 "classname" "misc_model"
 "origin" "-1584 2184 -40"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 916
+// entity 912
 {
 "classname" "misc_model"
 "origin" "-1444 2184 -40"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 917
+// entity 913
 {
 "classname" "misc_model"
 "origin" "-1296 2380 -4"
 "model" "models/mapobjects/tree_temperate_sd/smallfoliage1.md3"
 }
-// entity 918
+// entity 914
 {
 "classname" "misc_model"
 "origin" "-1296 2384 -20"
 "model" "models/mapobjects/tree_temperate_sd/hightrunk.md3"
 }
-// entity 919
+// entity 915
 {
 "classname" "misc_model"
 "origin" "-1640 2560 -74"
-"model" "models/venice/ase/arch_side_ammo_1st.ase"
+"model" "models/venice/obj/arch_side_ammo_1st.obj"
 "spawnflags" "4"
+"angle" "180"
 }
-// entity 920
+// entity 916
 {
 "classname" "misc_model"
 "origin" "-1424 2240 -40"
-"model" "models/venice/ase/arch_side_ammo_1st.ase"
-"angle" "-90"
+"model" "models/venice/obj/arch_side_ammo_1st.obj"
+"angle" "90"
 "spawnflags" "4"
 }
-// entity 921
+// entity 917
 {
 "classname" "misc_model"
 "origin" "-44 975 -69"
@@ -226466,7 +226440,7 @@ brushDef
 "angle" "90"
 "modelscale" "0.75"
 }
-// entity 922
+// entity 918
 {
 "classname" "misc_model"
 "origin" "41 1172 -69"
@@ -226474,7 +226448,7 @@ brushDef
 "angle" "180"
 "modelscale" "0.75"
 }
-// entity 923
+// entity 919
 {
 "classname" "misc_model"
 "origin" "41 1388 -69"
@@ -226482,7 +226456,7 @@ brushDef
 "angle" "180"
 "modelscale" "0.75"
 }
-// entity 924
+// entity 920
 {
 "classname" "misc_model"
 "origin" "-28 1585 -69"
@@ -226490,7 +226464,7 @@ brushDef
 "angle" "-90"
 "modelscale" "0.75"
 }
-// entity 925
+// entity 921
 {
 "classname" "misc_model"
 "origin" "276 1360 8"
@@ -226498,7 +226472,7 @@ brushDef
 "modelscale" "0.5"
 "angle" "270"
 }
-// entity 926
+// entity 922
 {
 "classname" "misc_model"
 "origin" "276 1200 8"
@@ -226506,34 +226480,34 @@ brushDef
 "modelscale" "0.5"
 "angle" "270"
 }
-// entity 927
+// entity 923
 {
 "classname" "misc_model"
 "origin" "209 1211 -160"
 "model" "models/mapobjects/furniture/clubchair.md3"
 }
-// entity 928
+// entity 924
 {
 "classname" "misc_model"
 "origin" "289 1151 -160"
 "model" "models/mapobjects/furniture/clubchair.md3"
 "angle" "90"
 }
-// entity 929
+// entity 925
 {
 "classname" "misc_model"
 "origin" "117 824 -13"
 "model" "models/mapobjects/light/sd_sconce3.md3"
 "modelscale" "0.75"
 }
-// entity 930
+// entity 926
 {
 "classname" "misc_model"
 "origin" "117 480 -13"
 "model" "models/mapobjects/light/sd_sconce3.md3"
 "modelscale" "0.75"
 }
-// entity 931
+// entity 927
 {
 "classname" "misc_model"
 "origin" "400 403 -13"
@@ -226541,7 +226515,7 @@ brushDef
 "modelscale" "0.75"
 "angle" "90"
 }
-// entity 932
+// entity 928
 {
 "classname" "misc_model"
 "origin" "641 456 -13"
@@ -226549,7 +226523,7 @@ brushDef
 "modelscale" "0.75"
 "angle" "180"
 }
-// entity 933
+// entity 929
 {
 "classname" "misc_model"
 "origin" "641 736 -13"
@@ -226557,7 +226531,7 @@ brushDef
 "modelscale" "0.75"
 "angle" "180"
 }
-// entity 934
+// entity 930
 {
 "classname" "misc_model"
 "origin" "352 833 -13"
@@ -226565,7 +226539,7 @@ brushDef
 "modelscale" "0.75"
 "angle" "-90"
 }
-// entity 935
+// entity 931
 {
 "classname" "misc_model"
 "origin" "-16 519 -13"
@@ -226573,92 +226547,92 @@ brushDef
 "modelscale" "0.75"
 "angle" "90"
 }
-// entity 936
+// entity 932
 {
 "classname" "misc_model"
 "origin" "-257 632 53"
 "model" "models/mapobjects/light/sd_sconce3.md3"
 "modelscale" "0.75"
 }
-// entity 937
+// entity 933
 {
 "classname" "misc_model"
 "origin" "32 700 188"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 938
+// entity 934
 {
 "classname" "misc_model"
 "origin" "-24 860 188"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 939
+// entity 935
 {
 "classname" "misc_model"
 "origin" "-232 988 188"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 940
+// entity 936
 {
 "classname" "misc_model"
 "origin" "664 552 36"
 "model" "models/mapobjects/light/cagelight.md3"
 "angles" "0 -90 90"
 }
-// entity 941
+// entity 937
 {
 "classname" "misc_model"
 "origin" "710 836 28"
 "model" "models/mapobjects/light/cagelight.md3"
 }
-// entity 942
+// entity 938
 {
 "classname" "misc_model"
 "origin" "710 764 44"
 "model" "models/mapobjects/light/cagelight.md3"
 }
-// entity 943
+// entity 939
 {
 "classname" "misc_model"
 "origin" "710 908 12"
 "model" "models/mapobjects/light/cagelight.md3"
 }
-// entity 944
+// entity 940
 {
 "classname" "misc_model"
 "origin" "710 980 -4"
 "model" "models/mapobjects/light/cagelight.md3"
 }
-// entity 945
+// entity 941
 {
 "classname" "misc_model"
 "origin" "315.946 1456.76 -160"
-"model" "models/venice/ase/piano.ase"
-"angle" "-45"
+"model" "models/venice/obj/piano.obj"
+"angle" "135"
 "spawnflags" "4"
 }
-// entity 946
+// entity 942
 {
 "classname" "misc_model"
 "origin" "455 -830 -24"
 "model" "models/mapobjects/light/lantern.md3"
 "angle" "90"
 }
-// entity 947
+// entity 943
 {
 "classname" "misc_model"
 "origin" "758 -677 152"
 "model" "models/mapobjects/light/lantern.md3"
 "angle" "90"
 }
-// entity 948
+// entity 944
 {
 "classname" "misc_model"
 "origin" "772 -800 -64"
 "model" "models/mapobjects/light/cagelight.md3"
 "angles" "0 -90 90"
 }
-// entity 949
+// entity 945
 {
 "classname" "misc_model"
 "origin" "1497 328 -37"
@@ -226666,7 +226640,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 950
+// entity 946
 {
 "classname" "misc_model"
 "origin" "1497 856 -85"
@@ -226674,7 +226648,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 951
+// entity 947
 {
 "classname" "misc_model"
 "origin" "1497 1448 -85"
@@ -226682,7 +226656,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 952
+// entity 948
 {
 "classname" "misc_model"
 "origin" "1736 1575 -69"
@@ -226690,26 +226664,26 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 953
+// entity 949
 {
 "classname" "misc_model"
 "origin" "1856 1746 -94"
 "model" "models/mapobjects/light/lantern.md3"
 "angle" "90"
 }
-// entity 954
+// entity 950
 {
 "classname" "misc_model"
 "origin" "1966 1856 -94"
 "model" "models/mapobjects/light/lantern.md3"
 }
-// entity 955
+// entity 951
 {
 "classname" "misc_model"
 "origin" "2094 1856 -94"
 "model" "models/mapobjects/light/lantern.md3"
 }
-// entity 956
+// entity 952
 {
 "classname" "misc_model"
 "origin" "1369 1952 -69"
@@ -226717,7 +226691,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 957
+// entity 953
 {
 "classname" "misc_model"
 "origin" "1369 2144 -69"
@@ -226725,7 +226699,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 958
+// entity 954
 {
 "classname" "misc_model"
 "origin" "808 1959 -101"
@@ -226733,7 +226707,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 959
+// entity 955
 {
 "classname" "misc_model"
 "origin" "256 2176 -184"
@@ -226741,56 +226715,21 @@ brushDef
 "angle" "90"
 "_remap" "models/mapobjects/blitz_sd/blitz_sd_windows_mm;textures/venice_source_rebuild/blitz_sd_windows_mm"
 }
-// entity 960
+// entity 956
 {
 "classname" "misc_model"
 "origin" "256 2245 -163"
 "model" "models/mapobjects/blitz_sd/blitzwheelsb_mm.md3"
 "angle" "90"
 }
-// entity 961
+// entity 957
 {
 "classname" "misc_model"
 "origin" "255 2416 -163"
 "model" "models/mapobjects/blitz_sd/blitzwheelsf_mm.md3"
 "angle" "90"
 }
-// entity 962
-{
-"classname" "misc_model"
-"origin" "1038.79 878.49 -387.359"
-"model" "models/venice/ase/pole_wood.ase"
-"angles" "-5 0 3"
-}
-// entity 963
-{
-"classname" "misc_model"
-"origin" "1046.81 1072 -387.528"
-"model" "models/venice/ase/pole_wood.ase"
-"angles" "-5 0 0"
-}
-// entity 964
-{
-"classname" "misc_model"
-"origin" "856 2146.81 -387.528"
-"model" "models/venice/ase/pole_wood.ase"
-"angles" "0 0 5"
-}
-// entity 965
-{
-"classname" "misc_model"
-"origin" "520 2146.81 -387.528"
-"model" "models/venice/ase/pole_wood.ase"
-"angles" "0 0 5"
-}
-// entity 966
-{
-"classname" "misc_model"
-"origin" "696 2397.19 -387.528"
-"model" "models/venice/ase/pole_wood.ase"
-"angles" "0 0 -5"
-}
-// entity 967
+// entity 958
 {
 "classname" "misc_model"
 "origin" "1472 2471 -69"
@@ -226798,7 +226737,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 968
+// entity 959
 {
 "classname" "misc_model"
 "origin" "1856 2471 -69"
@@ -226806,45 +226745,45 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 969
+// entity 960
 {
 "classname" "misc_model"
 "origin" "2264 2784 -220"
 "model" "models/mapobjects/tree_temperate_sd/bush_temperate2.md3"
 "angle" "135"
 }
-// entity 970
+// entity 961
 {
 "classname" "misc_model"
 "origin" "2056 2772 -220"
 "model" "models/mapobjects/tree_temperate_sd/bush_temperate3.md3"
 "angle" "135"
 }
-// entity 971
+// entity 962
 {
 "classname" "misc_model"
 "origin" "1864 2768 -216"
 "model" "models/mapobjects/tree_temperate_sd/bush_temperate1.md3"
 }
-// entity 972
+// entity 963
 {
 "classname" "misc_model"
 "origin" "1796 2984 -204"
 "model" "models/mapobjects/tree_temperate_sd/bush_temperate3.md3"
 }
-// entity 973
+// entity 964
 {
 "classname" "misc_model"
 "origin" "1860 3120 -152"
 "model" "models/mapobjects/tree_temperate_sd/smallfoliage1.md3"
 }
-// entity 974
+// entity 965
 {
 "classname" "misc_model"
 "origin" "1760 2844 -104"
 "model" "models/mapobjects/tree_temperate_sd/mediumfoliage2.md3"
 }
-// entity 975
+// entity 966
 {
 "classname" "misc_model"
 "origin" "1881 4096 -69"
@@ -226852,7 +226791,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 976
+// entity 967
 {
 "classname" "misc_model"
 "origin" "2496 4471 -61"
@@ -226860,21 +226799,21 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 977
+// entity 968
 {
 "classname" "misc_model"
 "origin" "2000 3675 -100"
 "model" "models/mapobjects/light/bel_lamp_top40.md3"
 "modelscale_vec" "1 1 0.5"
 }
-// entity 978
+// entity 969
 {
 "classname" "misc_model"
 "origin" "-1718 -1836 64"
 "model" "models/mapobjects/furniture/chat_table_sm.md3"
 "spawnflags" "4"
 }
-// entity 979
+// entity 970
 {
 "classname" "misc_model"
 "origin" "1656 -473 27"
@@ -226882,7 +226821,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 980
+// entity 971
 {
 "classname" "misc_model"
 "origin" "2032 -473 27"
@@ -226890,7 +226829,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 981
+// entity 972
 {
 "classname" "misc_model"
 "origin" "2320 -473 27"
@@ -226898,7 +226837,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 982
+// entity 973
 {
 "classname" "misc_model"
 "origin" "1959 452 -57"
@@ -226906,7 +226845,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "90"
 }
-// entity 983
+// entity 974
 {
 "classname" "misc_model"
 "origin" "2469 476 -45"
@@ -226914,73 +226853,73 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-135"
 }
-// entity 984
+// entity 975
 {
 "classname" "misc_model"
 "origin" "2264 1436 -72"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 985
+// entity 976
 {
 "classname" "misc_model"
 "origin" "2864 363 -84"
 "model" "models/mapobjects/light/bel_lamp_top40.md3"
 "modelscale_vec" "1 1 0.5"
 }
-// entity 986
+// entity 977
 {
 "classname" "misc_model"
 "origin" "2864 47 -28"
 "model" "models/mapobjects/light/bel_lamp_top40.md3"
 "modelscale_vec" "1 1 0.5"
 }
-// entity 987
+// entity 978
 {
 "classname" "misc_model"
 "origin" "2864 -209 -28"
 "model" "models/mapobjects/light/bel_lamp_top40.md3"
 "modelscale_vec" "1 1 0.5"
 }
-// entity 988
+// entity 979
 {
 "classname" "misc_model"
 "origin" "1544 -1191 -29"
 "model" "models/mapobjects/light/bel_lamp_arm_off_gm.md3"
 "modelscale_vec" "1 1.5 1"
 }
-// entity 989
+// entity 980
 {
 "classname" "misc_model"
 "origin" "1488 -1064 76"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 990
+// entity 981
 {
 "classname" "misc_model"
 "origin" "1544 -864 76"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 991
+// entity 982
 {
 "classname" "misc_model"
 "origin" "1544 -648 76"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 992
+// entity 983
 {
 "classname" "misc_model"
 "origin" "1448 -708 -40"
 "model" "models/mapobjects/furniture/faucet.md3"
 "modelscale" "0.6"
 }
-// entity 993
+// entity 984
 {
 "classname" "misc_model"
 "origin" "1634 -748 -78"
 "model" "models/mapobjects/furniture/furnace1.md3"
 "angle" "90"
 }
-// entity 994
+// entity 985
 {
 "classname" "misc_model"
 "origin" "1832 -1881 -101"
@@ -226988,7 +226927,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 995
+// entity 986
 {
 "classname" "misc_model"
 "origin" "2315 -1679 -101"
@@ -226996,14 +226935,14 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-148"
 }
-// entity 996
+// entity 987
 {
 "classname" "misc_model"
 "origin" "1790 -1729 -208"
 "model" "models/mapobjects/light/lantern.md3"
 "angle" "90"
 }
-// entity 997
+// entity 988
 {
 "classname" "misc_model"
 "origin" "2731 -1599 -101"
@@ -227011,7 +226950,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-148"
 }
-// entity 998
+// entity 989
 {
 "classname" "misc_model"
 "origin" "3075 -1414 -101"
@@ -227019,7 +226958,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-135"
 }
-// entity 999
+// entity 990
 {
 "classname" "misc_model"
 "origin" "3359 -1130 -101"
@@ -227027,7 +226966,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-135"
 }
-// entity 1000
+// entity 991
 {
 "classname" "misc_model"
 "origin" "3545 -840 -101"
@@ -227035,7 +226974,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 1001
+// entity 992
 {
 "classname" "misc_model"
 "origin" "3641 -352 -101"
@@ -227043,7 +226982,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 1002
+// entity 993
 {
 "classname" "misc_model"
 "origin" "3641 176 -101"
@@ -227051,167 +226990,167 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 1003
+// entity 994
 {
 "classname" "misc_model"
 "origin" "3240 -1744 -168"
 "model" "models/mapobjects/tree_temperate_sd/hightree1.md3"
 }
-// entity 1004
+// entity 995
 {
 "classname" "misc_model"
 "origin" "3776 -636 -128"
 "model" "models/mapobjects/light/cagelight.md3"
 "angle" "45"
 }
-// entity 1005
+// entity 996
 {
 "classname" "misc_model"
 "origin" "3832 -480 -128"
 "model" "models/mapobjects/light/cagelight.md3"
 }
-// entity 1006
+// entity 997
 {
 "classname" "misc_model"
 "origin" "3832 -304 -128"
 "model" "models/mapobjects/light/cagelight.md3"
 }
-// entity 1007
+// entity 998
 {
 "classname" "misc_model"
 "origin" "3832 -128 -128"
 "model" "models/mapobjects/light/cagelight.md3"
 }
-// entity 1008
+// entity 999
 {
 "classname" "misc_model"
 "origin" "3832 48 -128"
 "model" "models/mapobjects/light/cagelight.md3"
 }
-// entity 1009
+// entity 1000
 {
 "classname" "misc_model"
 "origin" "3832 224 -128"
 "model" "models/mapobjects/light/cagelight.md3"
 }
-// entity 1010
+// entity 1001
 {
 "classname" "misc_model"
 "origin" "3808 352 -128"
 "model" "models/mapobjects/light/cagelight.md3"
 }
-// entity 1011
+// entity 1002
 {
 "classname" "misc_model"
 "origin" "3936 412 -128"
 "model" "models/mapobjects/light/cagelight.md3"
 "angle" "45"
 }
-// entity 1012
+// entity 1003
 {
 "classname" "misc_model"
 "origin" "4072 548 -128"
 "model" "models/mapobjects/light/cagelight.md3"
 "angle" "45"
 }
-// entity 1013
+// entity 1004
 {
 "classname" "misc_model"
 "origin" "3928 560 -128"
 "model" "models/mapobjects/light/cagelight.md3"
 "angle" "45"
 }
-// entity 1014
+// entity 1005
 {
 "classname" "misc_model"
 "origin" "4136 704 -128"
 "model" "models/mapobjects/light/cagelight.md3"
 }
-// entity 1015
+// entity 1006
 {
 "classname" "misc_model"
 "origin" "4288 896 -108"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 1016
+// entity 1007
 {
 "classname" "misc_model"
 "origin" "4288 896 -108"
 "model" "models/mapobjects/light/pendant10k.md3"
 }
-// entity 1017
+// entity 1008
 {
 "classname" "misc_model"
 "origin" "4032 896 -108"
+"model" "models/mapobjects/light/pendant10k.md3"
+}
+// entity 1009
+{
+"classname" "misc_model"
+"origin" "4032 896 -108"
+"model" "models/mapobjects/light/cagelighta.md3"
+}
+// entity 1010
+{
+"classname" "misc_model"
+"origin" "4032 1152 -108"
+"model" "models/mapobjects/light/cagelighta.md3"
+}
+// entity 1011
+{
+"classname" "misc_model"
+"origin" "4032 1152 -108"
+"model" "models/mapobjects/light/pendant10k.md3"
+}
+// entity 1012
+{
+"classname" "misc_model"
+"origin" "3864 1264 -108"
+"model" "models/mapobjects/light/pendant10k.md3"
+}
+// entity 1013
+{
+"classname" "misc_model"
+"origin" "3864 1264 -108"
+"model" "models/mapobjects/light/cagelighta.md3"
+}
+// entity 1014
+{
+"classname" "misc_model"
+"origin" "3864 1552 -108"
+"model" "models/mapobjects/light/cagelighta.md3"
+}
+// entity 1015
+{
+"classname" "misc_model"
+"origin" "3864 1552 -108"
+"model" "models/mapobjects/light/pendant10k.md3"
+}
+// entity 1016
+{
+"classname" "misc_model"
+"origin" "4032 1424 -108"
+"model" "models/mapobjects/light/cagelighta.md3"
+}
+// entity 1017
+{
+"classname" "misc_model"
+"origin" "4032 1424 -108"
 "model" "models/mapobjects/light/pendant10k.md3"
 }
 // entity 1018
 {
 "classname" "misc_model"
-"origin" "4032 896 -108"
-"model" "models/mapobjects/light/cagelighta.md3"
+"origin" "4032 1648 -108"
+"model" "models/mapobjects/light/pendant10k.md3"
 }
 // entity 1019
 {
 "classname" "misc_model"
-"origin" "4032 1152 -108"
+"origin" "4032 1648 -108"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
 // entity 1020
-{
-"classname" "misc_model"
-"origin" "4032 1152 -108"
-"model" "models/mapobjects/light/pendant10k.md3"
-}
-// entity 1021
-{
-"classname" "misc_model"
-"origin" "3864 1264 -108"
-"model" "models/mapobjects/light/pendant10k.md3"
-}
-// entity 1022
-{
-"classname" "misc_model"
-"origin" "3864 1264 -108"
-"model" "models/mapobjects/light/cagelighta.md3"
-}
-// entity 1023
-{
-"classname" "misc_model"
-"origin" "3864 1552 -108"
-"model" "models/mapobjects/light/cagelighta.md3"
-}
-// entity 1024
-{
-"classname" "misc_model"
-"origin" "3864 1552 -108"
-"model" "models/mapobjects/light/pendant10k.md3"
-}
-// entity 1025
-{
-"classname" "misc_model"
-"origin" "4032 1424 -108"
-"model" "models/mapobjects/light/cagelighta.md3"
-}
-// entity 1026
-{
-"classname" "misc_model"
-"origin" "4032 1424 -108"
-"model" "models/mapobjects/light/pendant10k.md3"
-}
-// entity 1027
-{
-"classname" "misc_model"
-"origin" "4032 1648 -108"
-"model" "models/mapobjects/light/pendant10k.md3"
-}
-// entity 1028
-{
-"classname" "misc_model"
-"origin" "4032 1648 -108"
-"model" "models/mapobjects/light/cagelighta.md3"
-}
-// entity 1029
 {
 "classname" "misc_model"
 "origin" "3433 896 -37"
@@ -227219,7 +227158,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 1030
+// entity 1021
 {
 "classname" "misc_model"
 "origin" "3433 1152 -37"
@@ -227227,7 +227166,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 1031
+// entity 1022
 {
 "classname" "misc_model"
 "origin" "3433 1408 -37"
@@ -227235,7 +227174,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 1032
+// entity 1023
 {
 "classname" "misc_model"
 "origin" "3433 1664 -37"
@@ -227243,7 +227182,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "-90"
 }
-// entity 1033
+// entity 1024
 {
 "classname" "misc_model"
 "origin" "4168 1368 -240"
@@ -227251,86 +227190,86 @@ brushDef
 "angle" "180"
 "modelscale" "1.25"
 }
-// entity 1034
+// entity 1025
 {
 "classname" "misc_model"
 "origin" "4288 1424 -108"
 "model" "models/mapobjects/light/pendant10k.md3"
 }
-// entity 1035
+// entity 1026
 {
 "classname" "misc_model"
 "origin" "4288 1424 -108"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 1036
+// entity 1027
 {
 "classname" "misc_model"
 "origin" "4288 1648 -108"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 1037
+// entity 1028
 {
 "classname" "misc_model"
 "origin" "4288 1648 -108"
 "model" "models/mapobjects/light/pendant10k.md3"
 }
-// entity 1038
+// entity 1029
 {
 "classname" "misc_model"
 "origin" "5048 1512 -20"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 1039
+// entity 1030
 {
 "classname" "misc_model"
 "origin" "5048 1512 -20"
 "model" "models/mapobjects/light/pendant10k.md3"
 }
-// entity 1040
+// entity 1031
 {
 "classname" "misc_model"
 "origin" "5048 1736 -20"
 "model" "models/mapobjects/light/pendant10k.md3"
 }
-// entity 1041
+// entity 1032
 {
 "classname" "misc_model"
 "origin" "5048 1736 -20"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 1042
+// entity 1033
 {
 "classname" "misc_model"
 "origin" "4612 1700 -100"
 "model" "models/mapobjects/light/cagelight.md3"
 "angles" "0 -90 90"
 }
-// entity 1043
+// entity 1034
 {
 "classname" "misc_model"
 "origin" "4480 1792 -84"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 1044
+// entity 1035
 {
 "classname" "misc_model"
 "origin" "4480 1792 -84"
 "model" "models/mapobjects/light/pendant10k.md3"
 }
-// entity 1045
+// entity 1036
 {
 "classname" "misc_model"
 "origin" "4481 2072 -48"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 1046
+// entity 1037
 {
 "classname" "misc_model"
 "origin" "4481 2072 -48"
 "model" "models/mapobjects/light/pendant10k.md3"
 }
-// entity 1047
+// entity 1038
 {
 "classname" "misc_model"
 "origin" "4230 2484 -224"
@@ -227338,7 +227277,7 @@ brushDef
 "angle" "-180"
 "spawnflags" "4"
 }
-// entity 1048
+// entity 1039
 {
 "classname" "misc_model"
 "origin" "3608 2599 -117"
@@ -227346,7 +227285,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 1049
+// entity 1040
 {
 "classname" "misc_model"
 "origin" "3808 2631 -117"
@@ -227354,7 +227293,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 1050
+// entity 1041
 {
 "classname" "misc_model"
 "origin" "4240 2599 -117"
@@ -227362,7 +227301,7 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 1051
+// entity 1042
 {
 "classname" "misc_model"
 "origin" "5144 2599 -117"
@@ -227370,27 +227309,14 @@ brushDef
 "modelscale_vec" "1 1.5 1"
 "angle" "180"
 }
-// entity 1052
+// entity 1043
 {
 "classname" "misc_model"
 "origin" "3417 3184 -224"
 "model" "models/mapobjects/light/lantern.md3"
 "angle" "90"
 }
-// entity 1053
-{
-"classname" "misc_model"
-"origin" "3432 4048 -388"
-"model" "models/venice/ase/pole_wood.ase"
-}
-// entity 1054
-{
-"classname" "misc_model"
-"origin" "3413.23 3797.19 -387.058"
-"model" "models/venice/ase/pole_wood.ase"
-"angles" "5 0 355"
-}
-// entity 1055
+// entity 1044
 {
 "classname" "misc_model"
 "origin" "4676 4139 -101"
@@ -227398,7 +227324,7 @@ brushDef
 "angle" "90"
 "modelscale" "0.75"
 }
-// entity 1056
+// entity 1045
 {
 "classname" "misc_model"
 "origin" "4316 4139 -101"
@@ -227406,14 +227332,14 @@ brushDef
 "angle" "90"
 "modelscale" "0.75"
 }
-// entity 1057
+// entity 1046
 {
 "classname" "misc_model"
 "origin" "3923 4272 -53"
 "model" "models/mapobjects/light/sd_sconce3.md3"
 "modelscale" "0.75"
 }
-// entity 1058
+// entity 1047
 {
 "classname" "misc_model"
 "origin" "5069 4272 -53"
@@ -227421,7 +227347,7 @@ brushDef
 "modelscale" "0.75"
 "angle" "180"
 }
-// entity 1059
+// entity 1048
 {
 "classname" "misc_model"
 "origin" "5003 4568 115"
@@ -227429,7 +227355,7 @@ brushDef
 "modelscale" "0.75"
 "angle" "180"
 }
-// entity 1060
+// entity 1049
 {
 "classname" "misc_model"
 "origin" "4879 4864 115"
@@ -227437,7 +227363,7 @@ brushDef
 "modelscale" "0.75"
 "angle" "180"
 }
-// entity 1061
+// entity 1050
 {
 "classname" "misc_model"
 "origin" "4879 5120 115"
@@ -227445,7 +227371,7 @@ brushDef
 "modelscale" "0.75"
 "angle" "180"
 }
-// entity 1062
+// entity 1051
 {
 "classname" "misc_model"
 "origin" "4808 5585 5"
@@ -227453,7 +227379,7 @@ brushDef
 "modelscale" "0.75"
 "angle" "-90"
 }
-// entity 1063
+// entity 1052
 {
 "classname" "misc_model"
 "origin" "4496 5585 -79"
@@ -227461,7 +227387,7 @@ brushDef
 "modelscale" "0.75"
 "angle" "-90"
 }
-// entity 1064
+// entity 1053
 {
 "classname" "misc_model"
 "origin" "4184 5585 5"
@@ -227469,7 +227395,7 @@ brushDef
 "modelscale" "0.75"
 "angle" "-90"
 }
-// entity 1065
+// entity 1054
 {
 "classname" "misc_model"
 "origin" "4496 5231 115"
@@ -227477,64 +227403,64 @@ brushDef
 "modelscale" "0.75"
 "angle" "-90"
 }
-// entity 1066
+// entity 1055
 {
 "classname" "misc_model"
 "origin" "3955 5048 115"
 "model" "models/mapobjects/light/sd_sconce3.md3"
 "modelscale" "0.75"
 }
-// entity 1067
+// entity 1056
 {
 "classname" "misc_model"
 "origin" "4113 4864 115"
 "model" "models/mapobjects/light/sd_sconce3.md3"
 "modelscale" "0.75"
 }
-// entity 1068
+// entity 1057
 {
 "classname" "misc_model"
 "origin" "3989 4568 115"
 "model" "models/mapobjects/light/sd_sconce3.md3"
 "modelscale" "0.75"
 }
-// entity 1069
+// entity 1058
 {
 "classname" "misc_model"
 "origin" "4048 4352 204"
 "model" "models/mapobjects/light/pendant10k.md3"
 }
-// entity 1070
+// entity 1059
 {
 "classname" "misc_model"
 "origin" "4048 4352 204"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 1071
+// entity 1060
 {
 "classname" "misc_model"
 "origin" "4944 4352 204"
 "model" "models/mapobjects/light/cagelighta.md3"
 }
-// entity 1072
+// entity 1061
 {
 "classname" "misc_model"
 "origin" "4944 4352 204"
 "model" "models/mapobjects/light/pendant10k.md3"
 }
-// entity 1073
+// entity 1062
 {
 "classname" "misc_model"
 "origin" "4496 4872 144"
 "model" "models/mapobjects/chandelier/chandlier_new.md3"
 }
-// entity 1074
+// entity 1063
 {
 "classname" "misc_model"
 "origin" "4496 4632 144"
 "model" "models/mapobjects/chandelier/chandlier_new.md3"
 }
-// entity 1075
+// entity 1064
 {
 "classname" "misc_model"
 "origin" "4448 4944 -200"
@@ -227542,7 +227468,7 @@ brushDef
 "angle" "-90"
 "modelscale" "1.25"
 }
-// entity 1076
+// entity 1065
 {
 "classname" "misc_model"
 "origin" "4536 4944 -200"
@@ -227550,14 +227476,14 @@ brushDef
 "angle" "-85"
 "modelscale" "1.25"
 }
-// entity 1077
+// entity 1066
 {
 "classname" "misc_model"
 "origin" "64 1381 -159"
 "model" "models/venice/ase/carpet_c03.ase"
 "spawnflags" "4"
 }
-// entity 1078
+// entity 1067
 {
 "classname" "misc_model"
 "origin" "279.177 1449.69 -159"
@@ -227565,7 +227491,7 @@ brushDef
 "angle" "-45"
 "spawnflags" "4"
 }
-// entity 1079
+// entity 1068
 {
 "classname" "misc_model"
 "origin" "296.314 1107.18 -159"
@@ -227573,7 +227499,7 @@ brushDef
 "angle" "45"
 "spawnflags" "4"
 }
-// entity 1080
+// entity 1069
 {
 "classname" "misc_model"
 "origin" "1464 -800 -87"
@@ -227581,7 +227507,7 @@ brushDef
 "angle" "-90"
 "spawnflags" "4"
 }
-// entity 1081
+// entity 1070
 {
 "classname" "misc_model"
 "origin" "-4126.11 -742 -112.124"
@@ -227590,7 +227516,7 @@ brushDef
 "spawnflags" "4"
 "angles" "-24 0 0"
 }
-// entity 1082
+// entity 1071
 {
 "classname" "misc_model"
 "origin" "-4126.11 -742 -112.124"
@@ -227599,21 +227525,21 @@ brushDef
 "angles" "-24 0 0"
 "spawnflags" "4"
 }
-// entity 1083
+// entity 1072
 {
 "classname" "misc_model"
 "origin" "-2800 1600 -168"
 "model" "models/venice/ase/box_m05.ase"
 "spawnflags" "4"
 }
-// entity 1084
+// entity 1073
 {
 "classname" "misc_model"
 "origin" "-2720 1596 -168"
 "model" "models/venice/ase/box_m05.ase"
 "spawnflags" "4"
 }
-// entity 1085
+// entity 1074
 {
 "classname" "misc_model"
 "origin" "-2767.19 1625.37 -104"
@@ -227621,7 +227547,7 @@ brushDef
 "angle" "-15"
 "spawnflags" "4"
 }
-// entity 1086
+// entity 1075
 {
 "classname" "misc_model"
 "origin" "-2731.71 1660.29 -170"
@@ -227629,7 +227555,7 @@ brushDef
 "angle" "30"
 "spawnflags" "4"
 }
-// entity 1087
+// entity 1076
 {
 "classname" "misc_model"
 "origin" "-1411.71 100.287 -168"
@@ -227637,7 +227563,7 @@ brushDef
 "angle" "-30"
 "spawnflags" "4"
 }
-// entity 1088
+// entity 1077
 {
 "classname" "misc_model"
 "origin" "-1304.01 151.997 -168"
@@ -227645,7 +227571,7 @@ brushDef
 "angle" "-90"
 "spawnflags" "4"
 }
-// entity 1089
+// entity 1078
 {
 "classname" "misc_model"
 "origin" "-1272 150.627 -104"
@@ -227654,7 +227580,7 @@ brushDef
 "angle" "-135"
 "spawnflags" "4"
 }
-// entity 1090
+// entity 1079
 {
 "classname" "misc_model"
 "origin" "-1245.86 162.144 -168"
@@ -227663,7 +227589,7 @@ brushDef
 "angle" "-30"
 "spawnflags" "4"
 }
-// entity 1091
+// entity 1080
 {
 "classname" "misc_model"
 "origin" "-1240 112 -168"
@@ -227671,7 +227597,7 @@ brushDef
 "modelscale" "0.5"
 "spawnflags" "4"
 }
-// entity 1092
+// entity 1081
 {
 "classname" "misc_model"
 "origin" "-556.287 928.287 -168"
@@ -227679,7 +227605,7 @@ brushDef
 "angle" "60"
 "spawnflags" "4"
 }
-// entity 1093
+// entity 1082
 {
 "classname" "misc_model"
 "origin" "-584 888 -168"
@@ -227687,14 +227613,14 @@ brushDef
 "modelscale" "0.5"
 "spawnflags" "4"
 }
-// entity 1094
+// entity 1083
 {
 "classname" "misc_model"
 "origin" "-528 836 -168"
 "model" "models/venice/ase/box_m05a.ase"
 "spawnflags" "4"
 }
-// entity 1095
+// entity 1084
 {
 "classname" "misc_model"
 "origin" "-597.856 882.144 -136"
@@ -227703,7 +227629,7 @@ brushDef
 "modelscale" "0.5"
 "spawnflags" "4"
 }
-// entity 1096
+// entity 1085
 {
 "classname" "misc_model"
 "origin" "-573.856 842.144 -168"
@@ -227712,14 +227638,14 @@ brushDef
 "angle" "30"
 "spawnflags" "4"
 }
-// entity 1097
+// entity 1086
 {
 "classname" "misc_model"
 "origin" "-2312 -1160 -240"
 "model" "models/venice/ase/box_m05a.ase"
 "spawnflags" "4"
 }
-// entity 1098
+// entity 1087
 {
 "classname" "misc_model"
 "origin" "-2296.65 -1237.95 -240"
@@ -227727,7 +227653,7 @@ brushDef
 "angle" "12"
 "spawnflags" "4"
 }
-// entity 1099
+// entity 1088
 {
 "classname" "misc_model"
 "origin" "-2303.62 -1096.07 -240"
@@ -227736,7 +227662,7 @@ brushDef
 "modelscale" "0.5"
 "spawnflags" "4"
 }
-// entity 1100
+// entity 1089
 {
 "classname" "misc_model"
 "origin" "-2269.12 -1258.11 -240"
@@ -227745,7 +227671,7 @@ brushDef
 "modelscale" "0.5"
 "spawnflags" "4"
 }
-// entity 1101
+// entity 1090
 {
 "classname" "misc_model"
 "origin" "-2340.17 -1098.84 -208"
@@ -227753,7 +227679,7 @@ brushDef
 "angle" "6"
 "spawnflags" "4"
 }
-// entity 1102
+// entity 1091
 {
 "classname" "misc_model"
 "origin" "-2349.12 -1098.11 -240"
@@ -227762,7 +227688,7 @@ brushDef
 "modelscale" "0.5"
 "spawnflags" "4"
 }
-// entity 1103
+// entity 1092
 {
 "classname" "misc_model"
 "origin" "-844 -1068 -168"
@@ -227770,7 +227696,7 @@ brushDef
 "angle" "-90"
 "spawnflags" "4"
 }
-// entity 1104
+// entity 1093
 {
 "classname" "misc_model"
 "origin" "-877.499 -1058.71 -168"
@@ -227778,7 +227704,7 @@ brushDef
 "angle" "-95"
 "spawnflags" "4"
 }
-// entity 1105
+// entity 1094
 {
 "classname" "misc_model"
 "origin" "-876.619 -1067.2 -152"
@@ -227786,7 +227712,7 @@ brushDef
 "angle" "-80"
 "spawnflags" "4"
 }
-// entity 1106
+// entity 1095
 {
 "classname" "misc_model"
 "origin" "-769.515 -1200.92 -168"
@@ -227794,7 +227720,7 @@ brushDef
 "angle" "38"
 "spawnflags" "4"
 }
-// entity 1107
+// entity 1096
 {
 "classname" "misc_model"
 "origin" "-2333.17 -1184.34 -239.757"
@@ -227802,7 +227728,7 @@ brushDef
 "angles" "-65 5 0"
 "spawnflags" "4"
 }
-// entity 1108
+// entity 1097
 {
 "classname" "misc_model"
 "origin" "-2328.26 -1252.06 -240"
@@ -227810,7 +227736,7 @@ brushDef
 "angle" "-44"
 "spawnflags" "4"
 }
-// entity 1109
+// entity 1098
 {
 "classname" "misc_model"
 "origin" "-2314.65 -1231.42 -224.146"
@@ -227818,7 +227744,7 @@ brushDef
 "angles" "0 -36 80"
 "spawnflags" "4"
 }
-// entity 1110
+// entity 1099
 {
 "classname" "misc_model"
 "origin" "-991.192 -1758.63 -240"
@@ -227826,7 +227752,7 @@ brushDef
 "angle" "-15"
 "spawnflags" "4"
 }
-// entity 1111
+// entity 1100
 {
 "classname" "misc_model"
 "origin" "-959.079 -1636.7 -240"
@@ -227834,7 +227760,7 @@ brushDef
 "angle" "36"
 "spawnflags" "4"
 }
-// entity 1112
+// entity 1101
 {
 "classname" "misc_model"
 "origin" "-1008 -1656 -240"
@@ -227842,7 +227768,7 @@ brushDef
 "modelscale" "0.5"
 "spawnflags" "4"
 }
-// entity 1113
+// entity 1102
 {
 "classname" "misc_model"
 "origin" "416 -876 -56"
@@ -227850,7 +227776,7 @@ brushDef
 "modelscale" "0.5"
 "spawnflags" "4"
 }
-// entity 1114
+// entity 1103
 {
 "classname" "misc_model"
 "origin" "456 -846.627 -56"
@@ -227859,7 +227785,7 @@ brushDef
 "angle" "45"
 "spawnflags" "4"
 }
-// entity 1115
+// entity 1104
 {
 "classname" "misc_model"
 "origin" "500 -760 -40"
@@ -227867,7 +227793,7 @@ brushDef
 "angle" "-90"
 "spawnflags" "4"
 }
-// entity 1116
+// entity 1105
 {
 "classname" "misc_model"
 "origin" "495.621 -761.501 -56"
@@ -227875,7 +227801,7 @@ brushDef
 "angle" "-85"
 "spawnflags" "4"
 }
-// entity 1117
+// entity 1106
 {
 "classname" "misc_model"
 "origin" "532 -756 -40"
@@ -227883,7 +227809,7 @@ brushDef
 "angle" "-90"
 "spawnflags" "4"
 }
-// entity 1118
+// entity 1107
 {
 "classname" "misc_model"
 "origin" "532 -760 -56"
@@ -227891,7 +227817,7 @@ brushDef
 "angle" "-90"
 "spawnflags" "4"
 }
-// entity 1119
+// entity 1108
 {
 "classname" "misc_model"
 "origin" "568 -812 -56"
@@ -227899,7 +227825,7 @@ brushDef
 "angles" "0 90 90"
 "spawnflags" "4"
 }
-// entity 1120
+// entity 1109
 {
 "classname" "misc_model"
 "origin" "616 -812 -56"
@@ -227907,7 +227833,7 @@ brushDef
 "angle" "90"
 "spawnflags" "4"
 }
-// entity 1121
+// entity 1110
 {
 "classname" "misc_model"
 "origin" "617.499 -813.288 -40"
@@ -227915,7 +227841,7 @@ brushDef
 "angle" "85"
 "spawnflags" "4"
 }
-// entity 1122
+// entity 1111
 {
 "classname" "misc_model"
 "origin" "740.144 -687.856 120"
@@ -227924,7 +227850,7 @@ brushDef
 "angle" "-30"
 "spawnflags" "4"
 }
-// entity 1123
+// entity 1112
 {
 "classname" "misc_model"
 "origin" "1772.14 -1739.86 -240"
@@ -227933,7 +227859,7 @@ brushDef
 "angle" "-30"
 "spawnflags" "4"
 }
-// entity 1124
+// entity 1113
 {
 "classname" "misc_model"
 "origin" "1714 -1758 -240"
@@ -227941,7 +227867,7 @@ brushDef
 "angle" "-90"
 "spawnflags" "4"
 }
-// entity 1125
+// entity 1114
 {
 "classname" "misc_model"
 "origin" "3420 -746.745 -240"
@@ -227949,7 +227875,7 @@ brushDef
 "angle" "-135"
 "spawnflags" "4"
 }
-// entity 1126
+// entity 1115
 {
 "classname" "misc_model"
 "origin" "2848 -128 -224"
@@ -227957,7 +227883,7 @@ brushDef
 "angle" "90"
 "spawnflags" "4"
 }
-// entity 1127
+// entity 1116
 {
 "classname" "misc_model"
 "origin" "2786.14 -45.8564 -224"
@@ -227966,7 +227892,7 @@ brushDef
 "modelscale" "0.5"
 "spawnflags" "4"
 }
-// entity 1128
+// entity 1117
 {
 "classname" "misc_model"
 "origin" "3492 366 -208"
@@ -227974,7 +227900,7 @@ brushDef
 "modelscale" "0.5"
 "spawnflags" "4"
 }
-// entity 1129
+// entity 1118
 {
 "classname" "misc_model"
 "origin" "3484.14 374.144 -240"
@@ -227983,7 +227909,7 @@ brushDef
 "angle" "-30"
 "spawnflags" "4"
 }
-// entity 1130
+// entity 1119
 {
 "classname" "misc_model"
 "origin" "3508 458.627 -176"
@@ -227992,7 +227918,7 @@ brushDef
 "angle" "-135"
 "spawnflags" "4"
 }
-// entity 1131
+// entity 1120
 {
 "classname" "misc_model"
 "origin" "3537.07 410.043 -240"
@@ -228000,14 +227926,14 @@ brushDef
 "angle" "100"
 "spawnflags" "4"
 }
-// entity 1132
+// entity 1121
 {
 "classname" "misc_model"
 "origin" "2848 1292 -224"
 "model" "models/venice/ase/box_m05a.ase"
 "spawnflags" "4"
 }
-// entity 1133
+// entity 1122
 {
 "classname" "misc_model"
 "origin" "2932 1453.26 -224"
@@ -228015,7 +227941,7 @@ brushDef
 "angle" "-135"
 "spawnflags" "4"
 }
-// entity 1134
+// entity 1123
 {
 "classname" "misc_model"
 "origin" "2944 1364.62 -192"
@@ -228024,7 +227950,7 @@ brushDef
 "angles" "90 0 135"
 "spawnflags" "4"
 }
-// entity 1135
+// entity 1124
 {
 "classname" "misc_model"
 "origin" "1968.99 580.339 -202.962"
@@ -228032,7 +227958,7 @@ brushDef
 "angles" "-2 0 -7"
 "spawnflags" "4"
 }
-// entity 1136
+// entity 1125
 {
 "classname" "misc_model"
 "origin" "2052.18 631.153 -208.19"
@@ -228040,7 +227966,7 @@ brushDef
 "angles" "5 45 -5"
 "spawnflags" "4"
 }
-// entity 1137
+// entity 1126
 {
 "classname" "misc_model"
 "origin" "1328 1376 -224"
@@ -228048,7 +227974,7 @@ brushDef
 "spawnflags" "4"
 "angle" "-90"
 }
-// entity 1138
+// entity 1127
 {
 "classname" "misc_model"
 "origin" "704 1992 -240"
@@ -228056,7 +227982,7 @@ brushDef
 "spawnflags" "4"
 "angle" "-90"
 }
-// entity 1139
+// entity 1128
 {
 "classname" "misc_model"
 "origin" "800 1992 -240"
@@ -228064,7 +227990,7 @@ brushDef
 "spawnflags" "4"
 "modelscale" "0.5"
 }
-// entity 1140
+// entity 1129
 {
 "classname" "misc_model"
 "origin" "826.144 1970.14 -240"
@@ -228073,7 +227999,7 @@ brushDef
 "modelscale" "0.5"
 "angle" "-30"
 }
-// entity 1141
+// entity 1130
 {
 "classname" "misc_model"
 "origin" "2392 1864 -224"
@@ -228081,7 +228007,7 @@ brushDef
 "spawnflags" "4"
 "angle" "-90"
 }
-// entity 1142
+// entity 1131
 {
 "classname" "misc_model"
 "origin" "2424 1862.63 -160"
@@ -228090,7 +228016,7 @@ brushDef
 "angle" "-135"
 "modelscale" "0.5"
 }
-// entity 1143
+// entity 1132
 {
 "classname" "misc_model"
 "origin" "2456 1824 -224"
@@ -228098,7 +228024,7 @@ brushDef
 "spawnflags" "4"
 "modelscale" "0.5"
 }
-// entity 1144
+// entity 1133
 {
 "classname" "misc_model"
 "origin" "2450.14 1874.14 -224"
@@ -228107,7 +228033,7 @@ brushDef
 "modelscale" "0.5"
 "angle" "-30"
 }
-// entity 1145
+// entity 1134
 {
 "classname" "misc_model"
 "origin" "2868 2405.25 -224"
@@ -228115,7 +228041,7 @@ brushDef
 "spawnflags" "4"
 "angle" "-135"
 }
-// entity 1146
+// entity 1135
 {
 "classname" "misc_model"
 "origin" "5063.81 3114.37 -96"
@@ -228123,7 +228049,7 @@ brushDef
 "spawnflags" "4"
 "angles" "90 0 15"
 }
-// entity 1147
+// entity 1136
 {
 "classname" "misc_model"
 "origin" "3609.89 3514 -168.124"
@@ -228131,4 +228057,81 @@ brushDef
 "modelscale" "0.5"
 "angles" "-24 0 0"
 "spawnflags" "4"
+}
+// entity 1137
+{
+"classname" "misc_model"
+"origin" "-1584.97 -2002.11 -387.66"
+"model" "models/venice/obj/pole_wood.obj"
+"angles" "3 -95 3"
+}
+// entity 1138
+{
+"classname" "misc_model"
+"origin" "-1303.06 -1911.66 -388.537"
+"model" "models/venice/obj/pole_wood.obj"
+"angles" "8 180 11"
+}
+// entity 1139
+{
+"classname" "misc_model"
+"origin" "-1088 -1910 -392.317"
+"model" "models/venice/obj/pole_wood.obj"
+"angles" "0 180 14"
+}
+// entity 1140
+{
+"classname" "misc_model"
+"origin" "-1583.57 -1657.99 -387.622"
+"model" "models/venice/obj/pole_wood.obj"
+"angles" "-2 -155 -4"
+}
+// entity 1141
+{
+"classname" "misc_model"
+"origin" "1038.79 878.49 -387.359"
+"model" "models/venice/obj/pole_wood.obj"
+"angles" "5 180 -3"
+}
+// entity 1142
+{
+"classname" "misc_model"
+"origin" "1046.81 1072 -387.528"
+"model" "models/venice/obj/pole_wood.obj"
+"angles" "5 180 0"
+}
+// entity 1143
+{
+"classname" "misc_model"
+"origin" "856 2146.81 -387.528"
+"model" "models/venice/obj/pole_wood.obj"
+"angles" "0 180 -5"
+}
+// entity 1144
+{
+"classname" "misc_model"
+"origin" "520 2146.81 -387.528"
+"model" "models/venice/obj/pole_wood.obj"
+"angles" "0 180 -5"
+}
+// entity 1145
+{
+"classname" "misc_model"
+"origin" "696 2397.19 -387.528"
+"model" "models/venice/obj/pole_wood.obj"
+"angles" "0 180 5"
+}
+// entity 1146
+{
+"classname" "misc_model"
+"origin" "3432 4048 -388"
+"model" "models/venice/obj/pole_wood.obj"
+"angle" "180"
+}
+// entity 1147
+{
+"classname" "misc_model"
+"origin" "3413.23 3797.19 -387.058"
+"model" "models/venice/obj/pole_wood.obj"
+"angles" "-5 180 -355"
 }
