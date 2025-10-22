@@ -10,7 +10,7 @@ Additionally, all maps have been converted from axial projection to brush primit
 ## General notes
 * If you utilize these maps in your own creations, **please do not edit the shaders.** If you need to make modifications, please create your own shaders with unique names.
 * Some terrains use special "reverse blend" shaders in some places. This is because certain blends present in the maps are only possible if using PCX alphamap blending, which requires the blending direction to be reversed for a `q3map_alphaMod` blend to work. This is because PCX alphamap blending does not care about the blend direction unlike `q3map_alphaMod` blending, it only cares if you have a shader available that is able to blend A -> B.
-* Maps created from decompiles were decompiled with texture alignment resolving enabled. They should be mostly fine in terms of texture alignment, but a thorough check has not been performed, only obvious issues that decompile has trouble resolving (some doors & other movers).
+* Maps created from decompiles were decompiled with texture alignment resolving enabled. They should be mostly fine in terms of texture alignment, but a thorough check has not been performed.
 
 For information about map-specific changes, please check the [wiki](https://github.com/Aciz/et-map-source-rebuilds/wiki) page for the map.
 
